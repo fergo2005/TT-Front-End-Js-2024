@@ -2,6 +2,7 @@ body{
     background-color: black;
 }
 h1 {
-    color: azure;
+    /* color: azure; */
+    color: blue;
     text-align: center;
 }

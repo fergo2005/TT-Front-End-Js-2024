@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Form-Contacto</title>
+</head>
+
+<body>
+    <header>
+        <h1>Formulario de Contacto</h1>
+    </header>
+    <form action="https://formspree.io/f/xnnqqjvp" method="post"> <!-- Post envia los datos al servidor de forma encriptada -->
+        <fieldset>
+            <legend>Datos Personales:</legend>
+            <label for="nombre">Nombres:
+                <input type="text" name="nombre" id="" placeholder="Ingrese su nombre..." lang="40">
+            </label><br><br>
+            <label for="correo">Correo electrónico:
+                <input type="email" name="correo" id="" placeholder="nombre@example">
+            </label>
+        </fieldset><br>
+        <label for="mensaje">Mensaje:
+            <textarea name="mensaje" id="mensaje" rows="5" cols="50">Cuentanos sobre ti...</textarea>
+        </label><br>
+        
+        <input type="submit" name="enviar" id="enviar">
+        <input type="reset" name="borrar" id="borrar">
+
+    </form>
+</body>
+
+</html>

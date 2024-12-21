@@ -589,7 +589,7 @@ iframe {
 
 @media (max-width:1030px) {
   body {
-    background-color: rgb(43, 255, 0);
+    /* background-color: rgb(43, 255, 0); */
   }
 
   .titulo-red {

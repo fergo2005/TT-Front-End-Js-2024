@@ -1,0 +1,719 @@
+:root {
+  font-size: 16px;
+  margin: 0px;
+  padding: 0px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Ubuntu, serif;
+}
+
+html {
+  height: 100%;
+
+}
+
+body {
+  width: 100%;
+  height: 100%;
+
+  /* font-size: 16px; */
+
+}
+
+header {
+  margin: 0;
+  padding: 0;
+
+  position: fixed;
+
+  /* font-family: Ubuntu, serif; */
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+
+  text-align: center;
+
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+
+
+  /* height: 100%; */
+
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 20%;
+
+  /* background-color: hwb(0 0% 100% / 0.896); */
+
+  /* transition: 0.7s; */
+  /* pad: 30px 20px; */
+
+  background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0));
+
+
+  /* background-image: url(img/frenteHAbg_98.jpg); */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  /* background-attachment: fixed; */
+  /* background-position: top; */
+
+
+  /* height: 50%;
+  font-family: "Ubuntu", serif;
+  font-weight: 300;
+  font-style: normal; */
+
+  /* font-size: 1.6em; */
+
+  /* display: block;
+  unicode-bidi: isolate; */
+  z-index: 10;
+}
+
+nav {
+  /* position: relative; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  /* position: fixed; */
+
+  /* background-color: #cc203b; */
+}
+
+.nav-menu {
+  /* position: relative; */
+  /* display:flex;
+  justify-content: space-around;
+  align-items: center; */
+
+  /* background-color: #cc203b; */
+
+  /* flex-direction: row; */
+  /* flex-wrap: wrap; */
+
+
+  gap: 30px;
+  /* position: fixed; */
+  /* font-family:Arial, Helvetica, sans-serif; */
+  /* font-style: bold; */
+
+
+  /* padding: 10px; */
+
+  /* background-color: rgba(19, 18, 18, 0.784); */
+  /* backface-visibility: hidden; */
+  /* color: white; */
+
+
+
+
+}
+
+.nav-opcion {
+  /* background-color: #ef60d2; */
+  /* para hacer el event */
+  /* gap: 10px; */
+  padding: 15px;
+  /* justify-content: space-around; */
+  /* align-items: center; */
+  text-align: center;
+
+  /* font-style:normal; */
+
+}
+
+.nav-opcion a {
+  text-decoration: none;
+  /* font-weight: 500; */
+  /* font-size: 1rem; */
+
+  /* font-family: "Ubuntu", serif;
+  font-weight: 400;
+  font-style: normal; */
+  color: white;
+
+}
+
+.logo {
+  /* background-color: blue; */
+  text-align: center;
+  padding: 10px;
+}
+
+.logo img {
+  width: 150px;
+}
+
+.slider {
+  /* position: relative; */
+  width: 100%;
+  height: 87%;
+  background: url(../img/frenteHAbg_98.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+main {
+  margin: 0;
+  padding: 0;
+
+  width: 100%;
+  height: 80hw;
+
+  /* background-image: url(../img/frenteHAbg_98.jpg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  /* ya no esta */
+}
+
+section {
+  margin: 0px;
+
+  /* background-color: #cc203b; */
+  /* background-color: blue; */
+
+  font-family: "Ubuntu", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+
+  padding: 30px;
+
+  /* border: 3px solid rgb(188, 67, 33); */
+
+  text-align: center;
+  align-items: center;
+
+  /* padding-top: 50px; */
+  /* padding-bottom: 50px; */
+}
+
+.section1 {
+  margin: 0px;
+  padding: 20px;
+  text-align: center;
+
+  /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+
+  /* align-items: center; */
+
+
+  /* padding: 90px; */
+  /* padding-left: 12%;
+  padding-right: 12%; */
+  /* padding-top: 5px; */
+  /* padding-bottom: 2%; */
+
+  /* text-decoration: none; */
+  /* margin-left: 10%; */
+  /* margin-right: 10%; */
+
+  /* font-family: 'Roboto', sans-serif; */
+  /* text-align: center; */
+  /* text-decoration:double; */
+  /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; */
+  /* font-weight: 400; */
+  /* font-style: bold; */
+  /* font-size: 2.4rem; */
+
+  /* line-height: 1em; */
+  /* font-weight: 300; */
+  /* border: 2px solid #cc203b */
+}
+
+.titulo-red {
+  margin: 0px;
+  padding: 25px;
+
+  font-family: "Ubuntu", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+  color: rgb(206, 6, 6);
+
+  /* font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif; */
+  /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+  /* font-family: "Ubuntu", serif; */
+  /* background-color: #ef60d2; */
+
+}
+
+.subtit-1 {
+  padding-left: 15%;
+  padding-right: 15%;
+  padding: 30px;
+
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-style: bold;
+
+  /* font-family:Arial, Helvetica, sans-serif; */
+  /* font-family: "Ubuntu", serif; */
+  /* padding-top: 0px; */
+  /* padding-top: 0%; */
+  /* margin: 10px; */
+  /* background-color: aqua; */
+}
+
+.t-2 {
+  padding-left: 15%;
+  padding-right: 15%;
+  /* padding: 0px; */
+
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-style: bold;
+
+  text-align: justify;
+
+  line-height: 35px;
+
+  /* font-family: "Ubuntu", serif; */
+  /* font-family: 'Roboto', sans-serif; */
+  /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+
+  /* padding-top: 20px; */
+
+  /* padding-top: 0px; */
+
+
+}
+
+.t-3 {
+  /* padding-top: 0px; */
+  padding-left: 15%;
+  padding-right: 15%;
+
+  font-size: 1.2rem;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 35px;
+
+  text-align: justify;
+
+  /* font-family: "Ubuntu", serif; */
+  /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; */
+
+  /* background-color: bisque; */
+
+  /* font-family: 'Roboto', sans-serif;  */
+  /* color: #cc203b; */
+}
+
+
+.div-videos {
+  margin: 0;
+  padding: 0;
+
+  padding-left: 15%;
+  padding-right: 15%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* gap: 20px; */
+
+  /* display: grid; */
+  /* Activar Flexbox */
+  /* Permitir que los productos se envuelvan */
+  /* flex-wrap: wrap; */
+
+  /* Distribuir los productos con
+  espacio entre ellos space-between space-around space-evenly; */
+
+
+  /* Relleno interno; */
+
+
+
+}
+
+.div-video {
+  margin: 0px;
+
+  /* flex-wrap: wrap; */
+
+  flex: 1 450px;
+
+
+  /* background-color: #2196F3; */
+  /* Fondo azul */
+  /* color: rgb(237, 27, 27); */
+  /* Color del texto */
+  /* padding: 10px; */
+  /* Relleno interno de cada producto */
+
+  /* Margen externo de cada producto */
+
+  /* Ajuste flexible: crece, encoge, tamaño base 300px */
+  /* box-sizing: border-box; */
+  /* Incluir relleno y borde en el tamaño total */
+  /* width: 500; */
+}
+
+.div-video:hover {
+  transform: translateY(-10px);
+}
+
+.titulo-red2 {
+
+  padding: 20px;
+  font-family: "Ubuntu", serif;
+  font-weight: 300;
+  font-style: normal;
+
+  color: #cc203b;
+
+  font-size: 2.1rem;
+
+  margin: 0px;
+}
+
+
+
+/* .producto {
+  background-color: rgb(45, 162, 123);
+  color: rgb(237, 27, 27);
+  Color del texto
+  padding: 10px;
+  Relleno interno de cada producto
+  margin: 1px;
+  Margen externo de cada producto
+  flex: 1 300px;
+  Ajuste flexible: crece, encoge, tamaño base 300px
+  box-sizing: border-box;
+  Incluir relleno y borde en el tamaño total
+  width: 300;
+} */
+
+.producto:hover {
+  transform: translateY(-10px);
+}
+
+
+
+
+
+
+
+
+.titulo-red3 {
+
+  padding: 0px;
+  padding-top: 0px;
+  font-family: "Ubuntu", serif;
+  font-weight: 400;
+  font-style: normal;
+
+  color: #cc2038;
+
+  font-size: 2.2rem;
+
+  margin: 0px;
+}
+
+.t-4 {
+  /* font-family: "Ubuntu", serif; */
+  /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; */
+
+  font-size: 1.1rem;
+  font-weight: 300;
+  font-style: normal;
+  text-align: left;
+  /*   text-align: justify; */
+  padding-top: 20px;
+  /* padding-left: 15%; */
+  /* padding-right: 15%; */
+  line-height: 35px;
+  /* background-color: bisque; */
+
+  /* font-family: 'Roboto', sans-serif;  */
+}
+
+.div-enlace {
+  margin: 0;
+  padding: 1;
+  /* background-color: #ef60d2; */
+  width: 110px;
+  /* height: 150px; */
+  border: 3px solid rgb(206, 6, 6);
+  border-radius: 10px;
+}
+
+.t-enlace {
+  display: flex;
+  justify-content: left;
+  padding: 15px;
+  /* background-color: aqua; */
+  text-align: left;
+  /* border: 3px solid red; */
+  /* border-bottom: 2px solid red; */
+  color: rgb(206, 6, 6);
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-decoration: none;
+
+}
+
+
+.inner {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+
+  /* padding: 10px 20px; */
+
+  background-color: rgb(245, 249, 237);
+  /*   color: rgba(206, 6, 6); */
+  /* display: flex; */
+  justify-content: center;
+  text-align: center;
+
+  align-items: center;
+
+}
+
+iframe {
+  /* padding: 10px 10px; */
+  width: 80%;
+  text-align: center;
+}
+
+
+
+
+
+.foot {
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  /* font-size: 2rem; */
+  margin: 0;
+  padding: 20px;
+  /* height: 200px; */
+
+  background-color: black;
+  color: rgb(224, 221, 221);
+
+  font-family: "Ubuntu", serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1.3rem;
+
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+
+  text-align: center;
+
+
+}
+
+.t-foot {
+  font-family: monospace;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+.ubuntu-light {
+  font-family: "Ubuntu", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ubuntu-regular {
+  font-family: "Ubuntu", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ubuntu-medium {
+  font-family: "Ubuntu", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ubuntu-bold {
+  font-family: "Ubuntu", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ubuntu-light-italic {
+  font-family: "Ubuntu", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.ubuntu-regular-italic {
+  font-family: "Ubuntu", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ubuntu-medium-italic {
+  font-family: "Ubuntu", serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.ubuntu-bold-italic {
+  font-family: "Ubuntu", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+
+
+
+
+
+
+@media (max-width:1030px) {
+  body {
+    background-color: rgb(43, 255, 0);
+  }
+
+  .titulo-red {
+    padding: 15px;
+    font-size: 2rem;
+  }
+
+  .subtit-1 {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding: 15px;
+    font-size: 1rem;
+  }
+
+  .t-2,
+  .t-3 {
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 1.1rem;
+    font-weight: 400;
+    font-style: bold;
+    text-align: justify;
+    line-height: 25px;
+  }
+
+  video {
+    width: 480px;
+    height: 800px;
+
+  }
+
+  .div-videos {
+    padding-left: 5%;
+    padding-right: 5%;
+    flex-wrap: wrap;
+  }
+
+  .div-video {
+    /* background-color: #cc20ac; */
+    text-align: center;
+    width: 700;
+  }
+
+  img{
+    width: 90%;
+    height: 90%;
+    text-align: center;
+  }
+  .div-servicios {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* background-color: #cc2038; */
+
+    width: 100%;
+    margin: 0;
+
+    padding: 20px;
+    /* padding-left: 10%;
+    padding-right: 10%; */
+
+    text-align: center;
+    /* justify-content: space-between; */
+  }
+  .div-serv {
+    margin: 0;
+    padding: 0px;
+    width: 90%;
+    text-align: center;
+  }
+  .div-serv2 {
+    padding: 20px;
+    padding-top: 0px;
+    width: 45%;
+    text-align: left;
+    align-content: center;
+  }
+  .foot {
+    padding: 2px;
+    font-size: 1rem;
+  }
+}
+
+
+
+
+
+@media (min-width:1030px) {
+  body {
+    /* background-color: aqua; */
+  }
+
+  video {
+    width: 330px;
+    height: 580px;
+
+  }
+
+  .div-servicios {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 80%;
+    margin: 0;
+
+    padding: 80px;
+    padding-left: 10%;
+    padding-right: 10%;
+
+    justify-content: space-between;
+  }
+
+  .div-serv {
+    margin: 0;
+    padding: 0px;
+    width: 50%;
+  }
+  .div-serv2 {
+    padding: 20px;
+    padding-top: 0px;
+    width: 45%;
+    text-align: left;
+    align-content: center;
+  }
+  .foot {
+    padding: 20px;
+  }
+}

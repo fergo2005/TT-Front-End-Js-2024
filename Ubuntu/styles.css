@@ -36,12 +36,15 @@ header nav li {
 
 }
 
+
+
 .nav {
   background-color: #13121260;
   backface-visibility: hidden;
   color: bisque;
 
 }
+
 
 ul {
   /* width: 100%; */

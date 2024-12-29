@@ -662,7 +662,8 @@ iframe {
 @media (max-width:967px) {
 
   body {
-    background-color: rgb(120, 249, 95);
+    margin: 0;
+    /* background-color: rgb(120, 249, 95); */
   }
 
 

@@ -26,24 +26,23 @@ header {
   font-size: 1.6em;
 }
 
-header nav li {
+/* header nav li {
   padding: 10px;
   list-style: none;
   text-align: center;
   text-decoration: none;
   
-  /*  */
-
-}
-
+  
+} */
 
 
-.nav {
+
+/* .nav {
   background-color: #13121260;
   backface-visibility: hidden;
   color: bisque;
 
-}
+} */
 
 
 ul {

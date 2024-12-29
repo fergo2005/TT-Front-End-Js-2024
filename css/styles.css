@@ -7,20 +7,15 @@
 * {
   margin: 0;
   padding: 0;
+  /* box-sizing: border-box; */
+  /* font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif; */
   font-family: Ubuntu, serif;
 }
 
-html {
-  height: 100%;
-
-}
-
+html,
 body {
-  width: 100%;
   height: 100%;
-
-  /* font-size: 16px; */
-
+  width: 100%;
 }
 
 header {
@@ -30,21 +25,22 @@ header {
   position: fixed;
 
   /* font-family: Ubuntu, serif; */
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
   font-size: 1rem;
 
-  text-align: center;
+  /* text-align: center; */
 
-  display: flex;
-  justify-content: space-around;
+  /*  display: flex; */
+  /* justify-content: space-between; */
+  /* align-items: center; */
   /* align-items: center; */
 
 
   /* height: 100%; */
 
-  top: 0;
-  left: 0;
+  /* top: 0;
+  left: 0; */
   width: 100%;
   height: 20%;
 
@@ -53,7 +49,7 @@ header {
   /* transition: 0.7s; */
   /* pad: 30px 20px; */
 
-  background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0));
+  background-image: linear-gradient(rgb(0, 0, 0), rgba(250, 250, 250, 0));
 
 
   /* background-image: url(img/frenteHAbg_98.jpg); */
@@ -75,22 +71,26 @@ header {
   z-index: 10;
 }
 
-nav {
-  /* position: relative; */
+/* nav {
+  padding: 0;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  align-content: center;
+} */
 
-  /* position: fixed; */
-
-  /* background-color: #cc203b; */
-}
 
 .nav-menu {
+  margin: 0;
+  padding: 0;
+
+  /* display: flex;   */
+  /* justify-content: space-around; */
+  /* align-items: center; */
+  /* align-content: center; */
+
+  /* gap: 30px; */
   /* position: relative; */
-  /* display:flex;
-  justify-content: space-around;
-  align-items: center; */
 
   /* background-color: #cc203b; */
 
@@ -98,57 +98,74 @@ nav {
   /* flex-wrap: wrap; */
 
 
-  gap: 30px;
+  /* gap: 10px; */
   /* position: fixed; */
   /* font-family:Arial, Helvetica, sans-serif; */
   /* font-style: bold; */
 
 
-  /* padding: 10px; */
-
   /* background-color: rgba(19, 18, 18, 0.784); */
   /* backface-visibility: hidden; */
   /* color: white; */
-
-
-
-
 }
 
-.nav-opcion {
-  /* background-color: #ef60d2; */
-  /* para hacer el event */
-  /* gap: 10px; */
-  padding: 15px;
-  /* justify-content: space-around; */
-  /* align-items: center; */
-  text-align: center;
 
-  /* font-style:normal; */
 
-}
+
 
 .nav-opcion a {
   text-decoration: none;
   /* font-weight: 500; */
   /* font-size: 1rem; */
-
   /* font-family: "Ubuntu", serif;
   font-weight: 400;
   font-style: normal; */
   color: white;
+  padding: 12px;
 
 }
 
-.logo {
-  /* background-color: blue; */
-  text-align: center;
-  padding: 10px;
+.nav-opcion a:hover {
+  background-color: red;
+}
+
+a.paginaActiva {
+  background-color: rgb(244, 76, 76);
 }
 
 .logo img {
+  /* background-color: blue; */
+  display: flex;
+  text-align: center;
+  padding: 10px;
   width: 150px;
+  /* display: none; */
+
 }
+
+.logo-hamb img {
+  display: flex;
+  padding: 10px;
+  max-width: 150px;
+
+  /* display: none;   para la pantalla grande */
+}
+
+/* .logo img {
+  width: 150px;
+} */
+
+.ico-hamb {
+  color: white;
+  /* padding: 5px; */
+  /* max-width: 100px; */
+  /* color: rgb(173, 31, 31); */
+  /* border-image: auto; */
+
+
+}
+
+
 
 .slider {
   /* position: relative; */
@@ -158,6 +175,15 @@ nav {
   background-size: cover;
   background-position: center center;
 }
+
+.slider-nosotros {
+  width: 100%;
+  height: 60%;
+  background: url(../img/bg_quienes.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
 
 main {
   margin: 0;
@@ -230,12 +256,12 @@ section {
 
 .titulo-red {
   margin: 0px;
-  padding: 25px;
-
+  /* padding: 10px; */
+  padding-top: 20px;
   font-family: "Ubuntu", serif;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
-  font-size: 3rem;
+  
   color: rgb(206, 6, 6);
 
   /* font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif; */
@@ -248,70 +274,47 @@ section {
 .subtit-1 {
   padding-left: 15%;
   padding-right: 15%;
-  padding: 30px;
-
-  font-size: 1.2rem;
-  font-weight: 500;
-  font-style: bold;
-
-  /* font-family:Arial, Helvetica, sans-serif; */
-  /* font-family: "Ubuntu", serif; */
-  /* padding-top: 0px; */
-  /* padding-top: 0%; */
-  /* margin: 10px; */
-  /* background-color: aqua; */
+  padding: 10px;
+  font-family: "Ubuntu", serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .t-2 {
   padding-left: 15%;
   padding-right: 15%;
-  /* padding: 0px; */
+  padding-top: 25px;
 
-  font-size: 1.2rem;
-  font-weight: 400;
-  font-style: bold;
+  font-family: "Ubuntu", serif;
+  font-size: 1.2em;
+  font-weight: 300;
+  font-style: normal;
 
+  color: rgb(0, 0, 0);
   text-align: justify;
-
   line-height: 35px;
-
-  /* font-family: "Ubuntu", serif; */
-  /* font-family: 'Roboto', sans-serif; */
-  /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
-
-  /* padding-top: 20px; */
-
-  /* padding-top: 0px; */
-
-
 }
 
 .t-3 {
-  /* padding-top: 0px; */
   padding-left: 15%;
   padding-right: 15%;
-
-  font-size: 1.2rem;
+  padding-top: 25px;
+  font-family: "Ubuntu", serif;
+  font-size: 1.2em;
   font-weight: 300;
   font-style: normal;
-  line-height: 35px;
 
   text-align: justify;
-
-  /* font-family: "Ubuntu", serif; */
-  /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; */
-
-  /* background-color: bisque; */
-
-  /* font-family: 'Roboto', sans-serif;  */
-  /* color: #cc203b; */
+  line-height: 35px;
+  color: rgb(79, 76, 76);
 }
 
 
 .div-videos {
   margin: 0;
   padding: 0;
-
+  padding-top: 50px;
   padding-left: 15%;
   padding-right: 15%;
 
@@ -363,17 +366,30 @@ section {
 }
 
 .titulo-red2 {
-
+  margin: 0px;
   padding: 20px;
   font-family: "Ubuntu", serif;
-  font-weight: 300;
+  font-weight: 400;
   font-style: normal;
 
   color: #cc203b;
 
-  font-size: 2.1rem;
+  font-size: 2.2rem;
 
+
+}
+
+.titulo-red3 {
   margin: 0px;
+  padding: 20px;
+  /* padding-top: 0px; */
+  padding-left: 30px;
+  font-family: "Ubuntu", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #cc2038;
+  font-size: 2.2rem;
+
 }
 
 
@@ -393,45 +409,44 @@ section {
   width: 300;
 } */
 
-.producto:hover {
+/* .producto:hover {
   transform: translateY(-10px);
-}
+} */
 
 
-
-
-
-
-
-
-.titulo-red3 {
-
-  padding: 0px;
-  padding-top: 0px;
-  font-family: "Ubuntu", serif;
-  font-weight: 400;
-  font-style: normal;
-
-  color: #cc2038;
-
-  font-size: 2.2rem;
-
-  margin: 0px;
-}
 
 .t-4 {
+  margin: 0;
+  padding: 0;
+  line-height: 35px;
+  
+padding: 20px 20px 20px 20px;
+
+  /* padding-left: 15%; */
+  /* padding-right: 15%; */
+  /* padding-top: 5px; */
+  /* font-family: "Ubuntu", serif; */
+  /* font-size: 1.2rem; */
+  /* font-weight: 300; */
+  /* font-style: normal; */
+
+  /* text-align: justify; */
+
+  
+
+
   /* font-family: "Ubuntu", serif; */
   /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; */
 
-  font-size: 1.1rem;
-  font-weight: 300;
-  font-style: normal;
-  text-align: left;
+
+
+
+  /* text-align: left; */
   /*   text-align: justify; */
-  padding-top: 20px;
+
   /* padding-left: 15%; */
   /* padding-right: 15%; */
-  line-height: 35px;
+
   /* background-color: bisque; */
 
   /* font-family: 'Roboto', sans-serif;  */
@@ -439,27 +454,53 @@ section {
 
 .div-enlace {
   margin: 0;
-  padding: 1;
+  padding: 0;
+  padding-left: 10px;
+  padding-right: 10px;
   /* background-color: #ef60d2; */
-  width: 110px;
+  /* text-align: center; */
+  /* align-content: center; */
+
+  /* position: absolute; */
+  width: 120px;
   /* height: 150px; */
   border: 3px solid rgb(206, 6, 6);
   border-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+  
+}
+
+.div-enlace:hover {
+
+  border: 5px solid rgb(245, 249, 12);
+  border-radius: 10px;
+  background-color: rgb(138, 253, 161);
 }
 
 .t-enlace {
-  display: flex;
-  justify-content: left;
-  padding: 15px;
+  padding: 10px;
+  padding-left: 20px;
+  /* display: flex;
+  justify-content: center; */
+
   /* background-color: aqua; */
-  text-align: left;
+  /* text-align: left; */
   /* border: 3px solid red; */
   /* border-bottom: 2px solid red; */
   color: rgb(206, 6, 6);
-  font-size: 1.1rem;
-  font-weight: 500;
+  font-size: 1.2rem;
+  font-weight: bold;
   text-decoration: none;
+  text-align: right;
+  /* border: 3px solid rgb(206, 6, 6); */
+}
 
+.t-enlace:hover{
+  
+  color: green;
+  font-size: 1.4rem;
 }
 
 
@@ -488,36 +529,26 @@ iframe {
 
 
 
-
-
 .foot {
-  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
-  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
-  /* font-size: 2rem; */
+  
   margin: 0;
-  padding: 20px;
-  /* height: 200px; */
-
-  background-color: black;
-  color: rgb(224, 221, 221);
-
+  background-color: rgb(120, 118, 118);
+  color: rgb(255, 250, 250);
   font-family: "Ubuntu", serif;
-  font-weight: 200;
   font-style: normal;
-  font-size: 1.3rem;
+  
 
 
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-
-  text-align: center;
+  
 
 
 }
 
-.t-foot {
+.foot-location {
+  text-align: left;
+}
+
+.t-foot {  
   font-family: monospace;
   text-align: center;
 }
@@ -532,53 +563,57 @@ iframe {
 
 
 
-.ubuntu-light {
+
+
+
+
+/* .ubuntu-light {
   font-family: "Ubuntu", serif;
   font-weight: 300;
   font-style: normal;
-}
+} */
 
-.ubuntu-regular {
+/* .ubuntu-regular {
   font-family: "Ubuntu", serif;
   font-weight: 400;
   font-style: normal;
-}
+} */
 
-.ubuntu-medium {
+/* .ubuntu-medium {
   font-family: "Ubuntu", serif;
   font-weight: 500;
   font-style: normal;
-}
+} */
 
-.ubuntu-bold {
+/* .ubuntu-bold {
   font-family: "Ubuntu", serif;
   font-weight: 700;
   font-style: normal;
-}
+} */
 
-.ubuntu-light-italic {
+/* .ubuntu-light-italic {
   font-family: "Ubuntu", serif;
   font-weight: 300;
   font-style: italic;
-}
+} */
 
-.ubuntu-regular-italic {
+/* .ubuntu-regular-italic {
   font-family: "Ubuntu", serif;
   font-weight: 400;
   font-style: italic;
-}
+} */
 
-.ubuntu-medium-italic {
+/* .ubuntu-medium-italic {
   font-family: "Ubuntu", serif;
   font-weight: 500;
   font-style: italic;
-}
+} */
 
-.ubuntu-bold-italic {
+/* .ubuntu-bold-italic {
   font-family: "Ubuntu", serif;
   font-weight: 700;
   font-style: italic;
-}
+} */
 
 
 
@@ -587,9 +622,79 @@ iframe {
 
 
 
-@media (max-width:1030px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Pantallas pequeñas */
+
+@media (max-width:967px) {
+
   body {
-    /* background-color: rgb(43, 255, 0); */
+    background-color: rgb(120, 249, 95);
+  }
+
+
+  .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    padding-right: 40px;
+  }
+
+  .nav-opcion {
+    display: none;
+  }
+
+  .logo img {
+    display: none;
+  }
+
+  .logo-hamb img {
+    /* padding-top: 20px; */
+    padding: 0;
+    max-width: 150px;
+    /* display: none; */
+  }
+
+  .ico-hamb {
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: end; */
+
+    font-size: 40px;
   }
 
   .titulo-red {
@@ -601,14 +706,22 @@ iframe {
     padding-left: 5%;
     padding-right: 5%;
     padding: 15px;
-    font-size: 1rem;
+    font-size: .9rem;
+  }
+
+  .titulo-red2{
+    font-size: 2rem;
+  }
+
+  .titulo-red3 {
+    font-size: 1.9rem;
   }
 
   .t-2,
   .t-3 {
     padding-left: 3%;
     padding-right: 3%;
-    font-size: 1.1rem;
+    font-size: .9rem;
     font-weight: 400;
     font-style: bold;
     text-align: justify;
@@ -616,104 +729,345 @@ iframe {
   }
 
   video {
-    width: 480px;
-    height: 800px;
+    /* min-width: 400px; */
+    width: 450px;
+    /*     min-height: 600px; */
+    height: 650px;
 
   }
 
   .div-videos {
-    padding-left: 5%;
-    padding-right: 5%;
+    /* padding: 50px; */
+    /* padding-left: 3%; */
+    /* padding-right: 3%; */
+    align-items: center;
+    text-align: center;
+    align-content: center;
     flex-wrap: wrap;
+    padding-bottom: 40px;
   }
 
   .div-video {
     /* background-color: #cc20ac; */
+    /* padding-left: 3%; */
     text-align: center;
-    width: 700;
+    /* padding-right: 3%; */
+    /* min-width: 450px; */
+    width: 700px;
+    padding-bottom: 10px;
   }
 
-  img{
+  img {
     width: 90%;
-    height: 90%;
-    text-align: center;
+
+    /* height: 100%; */
+    /* text-align: center;
+    align-items: center;
+    align-content: center; */
   }
+
   .div-servicios {
-    /* display: flex; */
-    /* flex-wrap: wrap; */
+
+
     /* background-color: #cc2038; */
 
-    width: 100%;
-    margin: 0;
 
-    padding: 20px;
     /* padding-left: 10%;
     padding-right: 10%; */
-
+    padding-top: 20px;
+    padding-bottom: 20px;
     text-align: center;
     /* justify-content: space-between; */
+
   }
-  .div-serv {
+
+  .div-serv-img {
+    /* background-color: bisque; */
     margin: 0;
-    padding: 0px;
+    padding: 0;
+    /*     display: flex;
+    justify-content: center; */
+    /* width: 90%; */
+    /* text-align: center; */
+    /* background-size: cover; */
+    /* background-position: center center; */
+  }
+
+  .div-serv-text {
+    padding: 20px;
+    /* padding-top: 0px; */
     width: 90%;
+
+    display: flex 1;
+    /* justify-content: center; */
+    /* flex-wrap: wrap; */
+
+    /* text-align: center; */
+    /* align-items: center; */
+    /* align-content: center; */
+    
+    /* width: 45%; */
+
+    /* padding-left: 0px; */
+    /* display: flex 1; */
+    justify-items: center;
+    text-align: justify;
+
+
+
+  }
+  .t-4{
+    font-family: "Ubuntu", serif;
+    
+    padding: 40px 10px 40px 20px;  
+    /* padding-left: 3%;
+    padding-right: 3%; */
+    font-size: 1.1rem;
+    font-weight: 400;
+    font-style: bold;
+    text-align: justify;
+    line-height: 30px;
+  }
+
+  
+  .foot{
+    padding: 2px;
+    /* height: 20vh; */
+    font-weight: 200;
+    font-size: .9rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  gap: 30px;
     text-align: center;
   }
-  .div-serv2 {
-    padding: 20px;
-    padding-top: 0px;
-    width: 45%;
-    text-align: left;
-    align-content: center;
+  .logo-foot {
+    max-width: 120px;   
   }
-  .foot {
-    padding: 2px;
-    font-size: 1rem;
+  .ico-foot {
+    max-width: 70px;   
   }
+  .t-foot{
+    padding: 10px;
+    font-size: .8rem;
+    /* height: 30px; */
+  }
+
 }
 
 
 
 
 
-@media (min-width:1030px) {
-  body {
-    /* background-color: aqua; */
-  }
 
-  video {
-    width: 330px;
-    height: 580px;
 
-  }
 
-  .div-servicios {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* grandes */
+/* pantallas grandes  */
+
+@media (min-width: 968px) {
+
+
+  nav {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  nav div {
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .nav-menu {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* text-align: center; */
+    flex-wrap: wrap;
+    /* gap: 0px; */
+  }
+
+  .nav-opcion {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
 
-    width: 80%;
-    margin: 0;
-
-    padding: 80px;
-    padding-left: 10%;
-    padding-right: 10%;
-
-    justify-content: space-between;
   }
 
-  .div-serv {
-    margin: 0;
-    padding: 0px;
-    width: 50%;
+  .logo-hamb img {
+    display: none;
   }
-  .div-serv2 {
-    padding: 20px;
-    padding-top: 0px;
-    width: 45%;
-    text-align: left;
+
+  .ico-hamb {
+    display: none;
+  }
+
+  .titulo-red {
+    padding: 15px;
+    font-size: 2.7rem;
+  }
+
+
+
+
+
+  video {
+    width: 300px;
+    height: 580px;
+  }
+
+  
+  
+  
+  
+  .div-servicios {
+
+    /* background-color: #96cc20; */
+    margin: 0;
+    padding: 0;
+    padding-top: 80px;
+    /* padding-left: 10%; */
+    /* padding-right: 10%; */
+
+    /*  width: 80vw; */
+    width: 90%;
+
+    display: flex;
+    justify-content: flex-end;
+    
+    
+    align-items: center;
     align-content: center;
+    flex-wrap: wrap;
   }
-  .foot {
-    padding: 20px;
+
+
+  .div-serv-img {
+    margin: 0;
+    padding: 0;
+    max-width: 45%;
+    /* width: 50%; */
+    flex-wrap: wrap;
+
+    /* display: flex; */
+    
+    /* justify-content: center; */
+    /* width: 90%; */
+    /* text-align: center; */
+    /* background-size: cover;
+    background-position: center center; */
+
   }
+  img{
+    width: 100%;
+  }
+
+  /* .div-serv-img img{
+    width: 100%;
+  } */
+
+/* div img{
+  width: 100%;
+} */
+
+
+  .div-serv-text {
+    /* background-color: antiquewhite; */
+    width: 45%;
+
+    padding-left: 0px;
+    display: flex 1;
+    justify-items: center;
+    text-align: center;
+    /* padding-bottom: px;     */
+
+  }
+  .t-4{
+    font-family: "Ubuntu", serif;
+    
+    padding: 40px 20px 30px 20px;  
+    /* padding-left: 3%;
+    padding-right: 3%; */
+    font-size: 1.25rem;
+    font-weight: 400;
+    font-style: bold;
+    text-align: justify;
+    line-height: 35px;
+    /* padding-bottom: 30px; */
+
+    
+  }
+
+
+  
+
+.foot{
+  padding: 20px;
+  height: 25vh;
+  font-weight: 200;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+
+  text-align: center;
+}
+.logo-foot{
+  max-width: 180px;
+}
+.ico-foot{
+  max-width: 100px;
+}
+
+
+/* para grandes */
+.t-foot{
+  padding: 10px;
+  font-size: 1rem;
+  /* height: 30px; */
+}
+
 }

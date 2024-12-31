@@ -614,7 +614,8 @@ iframe {
   margin: 0;
   width: 100%;
 
-  display: flex;
+  display: flex 1;
+  text-align: center;
   /* text-align: center; */
   justify-content: center;
   /* justify-items: center; */
@@ -1121,20 +1122,26 @@ background-color: rgb(255, 255, 255);
   }
 
   .h-desde {
-    padding: 40px 0px 0px 0px;
+    padding: 20px 0px 0px 0px;
     color: rgb(206, 6, 6);
     font-size: 1.1rem;
     font-weight: 400;
   }
 
   .h-precio {
-    padding: 20px 0px 40px 0px;
+    padding: 20px 0px 20px 0px;
     color: rgb(50, 50, 50);
     font-weight: 300;
     font-style: normal;
     font-size: 1.1rem;
   }
 
+  .h-disponibles {
+    padding: 20px 0px 20px 0px;
+    color: rgb(33, 6, 206);
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
   .div-enlace-res {
     padding: 40;
     width: 120px;
@@ -1506,7 +1513,7 @@ background-color: rgb(255, 255, 255);
 
   .h-desde {
     /* font-family: "Ubuntu", serif; */
-    padding: 40px 0px 0px 0px;
+    padding: 20px 0px 0px 0px;
     color: rgb(206, 6, 6);
     /* pant grande */
     font-size: 1.1rem;
@@ -1516,15 +1523,21 @@ background-color: rgb(255, 255, 255);
   .h-precio {
 
     /* padding: 20px; */
-    padding: 20px 0px 40px 0px;
+    padding: 20px 0px 20px 0px;
     color: rgb(50, 50, 50);
     /* font-family: "Ubuntu", serif; */
     font-weight: 300;
     font-style: normal;
     font-size: 1.1rem;
   }
-
-
+  .h-disponibles {
+    /* font-family: "Ubuntu", serif; */
+    padding: 0px 0px 20px 0px;
+    color: rgb(42, 35, 185);
+    /* pant grande */
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
 
   .div-enlace-res {
 

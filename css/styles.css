@@ -7,16 +7,13 @@
 * {
   margin: 0;
   padding: 0;
-  /* box-sizing: border-box; */
-  /* font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif; */
   font-family: Ubuntu, serif;
 }
 
 html,
 body {
   height: 100%;
-  width: 100%;
-  background-color: rgb(255, 220, 185);
+  width: 100%;  
 }
 
 header {

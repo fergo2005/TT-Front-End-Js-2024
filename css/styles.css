@@ -13,80 +13,63 @@
 html,
 body {
   height: 100%;
-  width: 100%;  
+  width: 100%;
 }
 
 header {
   margin: 0;
   padding: 0;
-
+  width: 100%;
+  height: 20%;
+  background-image: linear-gradient(rgb(0, 0, 0), rgba(250, 250, 250, 0));
   position: fixed;
-
-  /* font-family: Ubuntu, serif; */
+  /* z-index: 10; */
   font-weight: 500;
   font-style: normal;
-  font-size: 1rem;
+  font-size: 1.1rem;
+
 
   /* text-align: center; */
-
   /*  display: flex; */
   /* justify-content: space-between; */
   /* align-items: center; */
   /* align-items: center; */
-
-
   /* height: 100%; */
-
   /* top: 0;
   left: 0; */
-  width: 100%;
-  height: 20%;
-
   /* background-color: hwb(0 0% 100% / 0.896); */
-
   /* transition: 0.7s; */
   /* pad: 30px 20px; */
-
-  background-image: linear-gradient(rgb(0, 0, 0), rgba(250, 250, 250, 0));
-
-
   /* background-image: url(img/frenteHAbg_98.jpg); */
   /* background-repeat: no-repeat; */
   /* background-size: cover; */
   /* background-attachment: fixed; */
   /* background-position: top; */
-
-
   /* height: 50%;
   font-family: "Ubuntu", serif;
   font-weight: 300;
   font-style: normal; */
-
   /* font-size: 1.6em; */
-
   /* display: block;
   unicode-bidi: isolate; */
-  z-index: 10;
+
 }
 
-/* nav {
+nav {
+  margin: 0;
   padding: 0;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  align-content: center;
-} */
-
+  gap: 10px;
+  flex-wrap: wrap;
+}
 
 .nav-menu {
   margin: 0;
   padding: 0;
 
-  /* display: flex;   */
-  /* justify-content: space-around; */
-  /* align-items: center; */
   /* align-content: center; */
-
   /* gap: 30px; */
   /* position: relative; */
 
@@ -107,6 +90,13 @@ header {
   /* color: white; */
 }
 
+.logo-hamb img {
+  display: flex;
+  padding: 10px;
+  max-width: 150px;
+
+  /* display: none;   para la pantalla grande */
+}
 
 
 
@@ -141,13 +131,7 @@ a.paginaActiva {
 
 }
 
-.logo-hamb img {
-  display: flex;
-  padding: 10px;
-  max-width: 150px;
 
-  /* display: none;   para la pantalla grande */
-}
 
 /* .logo img {
   width: 150px;
@@ -1062,7 +1046,7 @@ justify-content: center; */
   }
 
   .target-habitacion {
-background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;

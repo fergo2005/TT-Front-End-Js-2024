@@ -180,24 +180,6 @@ a.paginaActiva {
 }
 
 
-
-.slider {
-  /* position: relative; */
-  width: 100%;
-  height: 87%;
-  background: url(../img/frenteHAbg_98.jpg);
-  background-size: cover;
-  background-position: center center;
-}
-
-.slider-nosotros {
-  width: 100%;
-  height: 60%;
-  background: url(../img/bg_quienes.jpg);
-  background-size: cover;
-  background-position: center center;
-}
-
 .slider-habitaciones {
   width: 100%;
   height: 58%;

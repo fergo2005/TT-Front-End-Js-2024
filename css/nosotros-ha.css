@@ -1,0 +1,1577 @@
+:root {
+  font-size: 16px;
+  margin: 0px;
+  padding: 0px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Ubuntu, serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 20%;
+  background-image: linear-gradient(rgb(0, 0, 0), rgba(250, 250, 250, 0));
+  position: fixed;
+  /* z-index: 10; */
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.1rem;
+
+
+  /* text-align: center; */
+  /*  display: flex; */
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  /* align-items: center; */
+  /* height: 100%; */
+  /* top: 0;
+  left: 0; */
+  /* background-color: hwb(0 0% 100% / 0.896); */
+  /* transition: 0.7s; */
+  /* pad: 30px 20px; */
+  /* background-image: url(img/frenteHAbg_98.jpg); */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  /* background-attachment: fixed; */
+  /* background-position: top; */
+  /* height: 50%;
+  font-family: "Ubuntu", serif;
+  font-weight: 300;
+  font-style: normal; */
+  /* font-size: 1.6em; */
+  /* display: block;
+  unicode-bidi: isolate; */
+
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.nav-menu {
+  margin: 0;
+  padding: 0;
+
+  /* align-content: center; */
+  /* gap: 30px; */
+  /* position: relative; */
+
+  /* background-color: #cc203b; */
+
+  /* flex-direction: row; */
+  /* flex-wrap: wrap; */
+
+
+  /* gap: 10px; */
+  /* position: fixed; */
+  /* font-family:Arial, Helvetica, sans-serif; */
+  /* font-style: bold; */
+
+
+  /* background-color: rgba(19, 18, 18, 0.784); */
+  /* backface-visibility: hidden; */
+  /* color: white; */
+}
+
+.logo-hamb img {
+  display: flex;
+  padding: 10px;
+  max-width: 150px;
+
+  /* display: none;   para la pantalla grande */
+}
+
+
+
+
+.nav-opcion a {
+  text-decoration: none;
+  /* font-weight: 500; */
+  /* font-size: 1rem; */
+  /* font-family: "Ubuntu", serif;
+  font-weight: 400;
+  font-style: normal; */
+  color: white;
+  padding: 12px;
+
+}
+
+.nav-opcion a:hover {
+  background-color: red;
+}
+
+a.paginaActiva {
+  background-color: rgb(244, 76, 76);
+}
+
+.logo img {
+  /* background-color: blue; */
+  display: flex;
+  text-align: center;
+  padding: 10px;
+  width: 150px;
+  /* display: none; */
+
+}
+
+
+
+/* .logo img {
+  width: 150px;
+} */
+
+.ico-hamb {
+  color: white;
+  /* padding: 5px; */
+  /* max-width: 100px; */
+  /* color: rgb(173, 31, 31); */
+  /* border-image: auto; */
+
+
+}
+
+
+
+.slider-nosotros {
+  width: 100%;
+  height: 60%;
+  background: url(../img/Nosotros/bg_quienes.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+
+
+main {
+  margin: 0;
+  padding: 0;
+
+  width: 100%;
+  height: 80hw;
+
+  /* background-image: url(../img/frenteHAbg_98.jpg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  /* ya no esta */
+}
+
+section {
+  margin: 0px;
+
+  /* background-color: #cc203b; */
+  /* background-color: blue; */
+
+  font-family: "Ubuntu", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+
+  padding: 30px;
+
+  /* border: 3px solid rgb(188, 67, 33); */
+
+  text-align: center;
+  align-items: center;
+
+  /* padding-top: 50px; */
+  /* padding-bottom: 50px; */
+}
+
+.section1 {
+  margin: 0px;
+  padding: 20px;
+  text-align: center;
+
+  /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+
+  /* align-items: center; */
+
+
+  /* padding: 90px; */
+  /* padding-left: 12%;
+  padding-right: 12%; */
+  /* padding-top: 5px; */
+  /* padding-bottom: 2%; */
+
+  /* text-decoration: none; */
+  /* margin-left: 10%; */
+  /* margin-right: 10%; */
+
+  /* font-family: 'Roboto', sans-serif; */
+  /* text-align: center; */
+  /* text-decoration:double; */
+  /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; */
+  /* font-weight: 400; */
+  /* font-style: bold; */
+  /* font-size: 2.4rem; */
+
+  /* line-height: 1em; */
+  /* font-weight: 300; */
+  /* border: 2px solid #cc203b */
+}
+
+.titulo-red {
+  margin: 0px;
+  /* padding: 10px; */
+  padding-top: 20px;
+  font-family: "Ubuntu", serif;
+  font-weight: 300;
+  font-style: normal;
+
+  color: rgb(206, 6, 6);
+
+  /* font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif; */
+  /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+  /* font-family: "Ubuntu", serif; */
+  /* background-color: #ef60d2; */
+
+}
+
+.subtit-1 {
+  padding-left: 15%;
+  padding-right: 15%;
+  padding: 10px;
+  font-family: "Ubuntu", serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.t-2 {
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 25px;
+
+  font-family: "Ubuntu", serif;
+  font-size: 1.2em;
+  font-weight: 300;
+  font-style: normal;
+
+  color: rgb(0, 0, 0);
+  text-align: justify;
+  line-height: 35px;
+}
+
+.t-3 {
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 25px;
+  font-family: "Ubuntu", serif;
+  font-size: 1.2em;
+  font-weight: 300;
+  font-style: normal;
+  text-align: justify;
+  line-height: 35px;
+  color: rgb(79, 76, 76);
+}
+
+
+.div-videos {
+  margin: 0;
+  padding: 0;
+  padding-top: 50px;
+  padding-left: 15%;
+  padding-right: 15%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* gap: 20px; */
+
+  /* display: grid; */
+  /* Activar Flexbox */
+  /* Permitir que los productos se envuelvan */
+  /* flex-wrap: wrap; */
+
+  /* Distribuir los productos con
+  espacio entre ellos space-between space-around space-evenly; */
+
+
+  /* Relleno interno; */
+
+
+
+}
+
+.div-video {
+  margin: 0px;
+
+  /* flex-wrap: wrap; */
+
+  flex: 1 450px;
+
+
+  /* background-color: #2196F3; */
+  /* Fondo azul */
+  /* color: rgb(237, 27, 27); */
+  /* Color del texto */
+  /* padding: 10px; */
+  /* Relleno interno de cada producto */
+
+  /* Margen externo de cada producto */
+
+  /* Ajuste flexible: crece, encoge, tamaño base 300px */
+  /* box-sizing: border-box; */
+  /* Incluir relleno y borde en el tamaño total */
+  /* width: 500; */
+}
+
+.div-video:hover {
+  transform: translateY(-10px);
+}
+
+.titulo-red2 {
+  margin: 0px;
+  padding: 20px;
+  font-family: "Ubuntu", serif;
+  font-weight: 400;
+  font-style: normal;
+
+  color: #cc203b;
+
+  font-size: 2.2rem;
+
+
+}
+
+.titulo-red3 {
+  margin: 0px;
+  padding: 20px;
+  /* padding-top: 0px; */
+  padding-left: 30px;
+  font-family: "Ubuntu", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #cc2038;
+  font-size: 2.2rem;
+
+}
+
+
+
+/* .producto {
+  background-color: rgb(45, 162, 123);
+  color: rgb(237, 27, 27);
+  Color del texto
+  padding: 10px;
+  Relleno interno de cada producto
+  margin: 1px;
+  Margen externo de cada producto
+  flex: 1 300px;
+  Ajuste flexible: crece, encoge, tamaño base 300px
+  box-sizing: border-box;
+  Incluir relleno y borde en el tamaño total
+  width: 300;
+} */
+
+/* .producto:hover {
+  transform: translateY(-10px);
+} */
+
+
+
+.t-4 {
+  margin: 0;
+  padding: 0;
+  line-height: 35px;
+
+  padding: 20px 20px 20px 20px;
+
+  /* padding-left: 15%; */
+  /* padding-right: 15%; */
+  /* padding-top: 5px; */
+  /* font-family: "Ubuntu", serif; */
+  /* font-size: 1.2rem; */
+  /* font-weight: 300; */
+  /* font-style: normal; */
+
+  /* text-align: justify; */
+
+
+
+
+  /* font-family: "Ubuntu", serif; */
+  /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; */
+
+
+
+
+  /* text-align: left; */
+  /*   text-align: justify; */
+
+  /* padding-left: 15%; */
+  /* padding-right: 15%; */
+
+  /* background-color: bisque; */
+
+  /* font-family: 'Roboto', sans-serif;  */
+}
+
+.div-enlace {
+  margin: 0;
+  padding: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  /* background-color: #ef60d2; */
+  /* text-align: center; */
+  /* align-content: center; */
+
+  /* position: absolute; */
+  width: 120px;
+  /* height: 150px; */
+  border: 3px solid rgb(206, 6, 6);
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+
+}
+
+.div-enlace:hover {
+
+  border: 5px solid greenyellow;
+  border-radius: 10px;
+  background-color: rgb(138, 253, 161);
+}
+
+.t-enlace {
+  padding: 10px;
+  padding-left: 20px;
+  /* display: flex;
+  justify-content: center; */
+
+  /* background-color: aqua; */
+  /* text-align: left; */
+  /* border: 3px solid red; */
+  /* border-bottom: 2px solid red; */
+  color: rgb(206, 6, 6);
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: right;
+  /* border: 3px solid rgb(206, 6, 6); */
+}
+
+.t-enlace:hover {
+
+  color: green;
+  font-size: 1.4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* general */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.inner {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+
+  /* padding: 10px 20px; */
+
+  background-color: rgb(245, 249, 237);
+  /*   color: rgba(206, 6, 6); */
+  /* display: flex; */
+  justify-content: center;
+  text-align: center;
+
+  align-items: center;
+
+}
+
+iframe {
+  /* padding: 10px 10px; */
+  width: 80%;
+  text-align: center;
+}
+
+
+
+.foot {
+
+  margin: 0;
+  background-color: rgb(120, 118, 118);
+  color: rgb(255, 250, 250);
+  font-family: "Ubuntu", serif;
+  font-style: normal;
+
+
+
+
+
+
+}
+
+.foot-location {
+  text-align: left;
+}
+
+.t-foot {
+  font-family: monospace;
+  text-align: center;
+}
+
+
+
+
+
+
+/* PAGINA HABITACIONES  GENERAL */
+
+.titulo-red-hab {
+  padding: 0px;
+  padding-top: 0px;
+  font-family: "Ubuntu", serif;
+  font-weight: 300;
+  font-style: normal;
+  color: rgb(206, 6, 6);
+  font-size: 2.7rem;
+}
+
+
+
+.titulo-pagina {
+  background-color: rgb(255, 220, 185));
+  padding-bottom: 30px;
+}
+
+
+.container-habitaciones {
+  background-color: rgb(255, 220, 185);
+  margin: 0;
+  width: 100%;
+
+  display: flex;
+  /* text-align: center; */
+  justify-content: center;
+  /* justify-items: center; */
+  /* flex: auto; */
+
+  font-family: "Ubuntu", serif;
+
+  padding-bottom: 40px;
+}
+
+
+.target-habitacion {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border: 3px solid rgba(136, 137, 134, 0.5);
+  padding-top: 20px;
+  padding-bottom: 30px;
+  text-align: center;
+  /* justify-content: center; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.h-tipo {
+  /* font-family: "Ubuntu", serif; */
+  padding: 15px;
+  color: rgb(206, 6, 6);
+  /* pant grande */
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.h-servicios {
+
+  padding: 5px;
+  color: rgb(61, 60, 60);
+  /* font-family: "Ubuntu", serif; */
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .ubuntu-light {
+  font-family: "Ubuntu", serif;
+  font-weight: 300;
+  font-style: normal;
+} */
+
+/* .ubuntu-regular {
+  font-family: "Ubuntu", serif;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+/* .ubuntu-medium {
+  font-family: "Ubuntu", serif;
+  font-weight: 500;
+  font-style: normal;
+} */
+
+/* .ubuntu-bold {
+  font-family: "Ubuntu", serif;
+  font-weight: 700;
+  font-style: normal;
+} */
+
+/* .ubuntu-light-italic {
+  font-family: "Ubuntu", serif;
+  font-weight: 300;
+  font-style: italic;
+} */
+
+/* .ubuntu-regular-italic {
+  font-family: "Ubuntu", serif;
+  font-weight: 400;
+  font-style: italic;
+} */
+
+/* .ubuntu-medium-italic {
+  font-family: "Ubuntu", serif;
+  font-weight: 500;
+  font-style: italic;
+} */
+
+/* .ubuntu-bold-italic {
+  font-family: "Ubuntu", serif;
+  font-weight: 700;
+  font-style: italic;
+} */
+
+
+/* .target-hab-info {
+  width: 50%;
+  display: flex;
+}
+.target-hab-info1 {
+  margin: 0;
+  padding: 10px;
+  text-align: left;
+  width: 50%;
+  display: flex 1;
+  flex: auto;
+  justify-items: left;
+  padding-bottom: 10px;
+}
+.target-hab-info2 {
+padding: 10px;
+width: 50%;
+justify-items: center;
+display: flex 1;
+}
+.h-valoracion {
+background-color: rgb(245, 246, 209);
+border-radius: 15px;
+padding: 20px;
+color: rgb(0, 0, 0);
+font-size: 1.1rem;
+font-weight: 400;
+}
+.h-desde {
+
+padding: 40px 0px 0px 0px;
+color: rgb(206, 6, 6);
+font-size: 1.1rem;
+font-weight: 400;
+}
+.h-precio {
+padding: 20px 0px 40px 0px;
+color: rgb(50, 50, 50);
+font-weight: 300;
+font-style: normal;
+font-size: 1.1rem;
+} */
+
+
+
+.div-enlace-res {
+
+  padding: 40;
+  /* padding-left: 10px;
+padding-right: 10px; */
+  /* background-color: #ef60d2; */
+  /* text-align: center; */
+  /* align-content: center; */
+
+  /* position: absolute; */
+  width: 120px;
+  /* height: 150px; */
+  border: 3px solid rgb(206, 6, 6);
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+
+}
+
+.div-enlace-res:hover {
+
+  border: 5px solid greenyellow;
+  border-radius: 10px;
+  background-color: rgb(138, 253, 161);
+}
+
+.t-enlace-res {
+  padding: 10px;
+  padding-left: 20px;
+  /* display: flex;
+justify-content: center; */
+
+  /* background-color: aqua; */
+  /* text-align: left; */
+  /* border: 3px solid red; */
+  /* border-bottom: 2px solid red; */
+  color: rgb(206, 6, 6);
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: right;
+  /* border: 3px solid rgb(206, 6, 6); */
+}
+
+.t-enlace-res:hover {
+
+  color: green;
+  font-size: 1.4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Pantallas pequeñas */
+
+@media (max-width:967px) {
+
+  body {
+    margin: 0;
+    /* background-color: rgb(120, 249, 95); */
+  }
+
+
+  .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    padding-right: 40px;
+  }
+
+  .nav-opcion {
+    display: none;
+  }
+
+  .logo img {
+    display: none;
+  }
+
+  .logo-hamb img {
+    /* padding-top: 20px; */
+    padding: 0;
+    max-width: 150px;
+    /* display: none; */
+  }
+
+  .ico-hamb {
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: end; */
+
+    font-size: 40px;
+  }
+
+  .titulo-red {
+    padding: 15px;
+    font-size: 2rem;
+  }
+
+  .subtit-1 {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding: 15px;
+    font-size: .9rem;
+  }
+
+  .titulo-red2 {
+    font-size: 2rem;
+  }
+
+  .titulo-red3 {
+    font-size: 1.9rem;
+  }
+
+  .t-2,
+  .t-3 {
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: .9rem;
+    font-weight: 400;
+    font-style: bold;
+    text-align: justify;
+    line-height: 25px;
+  }
+
+  video {
+    /* min-width: 400px; */
+    width: 450px;
+    /*     min-height: 600px; */
+    height: 650px;
+
+  }
+
+  .div-videos {
+    /* padding: 50px; */
+    /* padding-left: 3%; */
+    /* padding-right: 3%; */
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+  }
+
+  .div-video {
+    /* background-color: #cc20ac; */
+    /* padding-left: 3%; */
+    text-align: center;
+    /* padding-right: 3%; */
+    /* min-width: 450px; */
+    width: 700px;
+    padding-bottom: 10px;
+  }
+
+
+  /* no se de donde se */
+  img {
+    margin: 0;
+    /* width: 90%; */
+
+    /* height: 100%; */
+    /* text-align: center;
+    align-items: center;
+    align-content: center; */
+  }
+
+  .div-servicios {
+
+
+    /* background-color: #cc2038; */
+
+
+    /* padding-left: 10%;
+    padding-right: 10%; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    /* justify-content: space-between; */
+
+  }
+
+
+
+
+  .div-serv-img {
+    /* background-color: bisque; */
+    margin: 0;
+    padding: 0;
+    /*     display: flex;
+    justify-content: center; */
+    /* width: 90%; */
+    /* text-align: center; */
+    /* background-size: cover; */
+    /* background-position: center center; */
+  }
+
+  .div-serv-text {
+    padding: 20px;
+    /* padding-top: 0px; */
+    width: 90%;
+
+    display: flex 1;
+    /* justify-content: center; */
+    /* flex-wrap: wrap; */
+
+
+
+    /* padding-left: 0px; */
+    /* display: flex 1; */
+    justify-items: center;
+    text-align: justify;
+
+
+
+  }
+
+
+
+  .t-4 {
+    font-family: "Ubuntu", serif;
+
+    padding: 40px 10px 40px 20px;
+    /* padding-left: 3%;
+    padding-right: 3%; */
+    font-size: 1.1rem;
+    font-weight: 400;
+    font-style: bold;
+    text-align: justify;
+    line-height: 30px;
+  }
+
+
+
+
+
+
+  /* DE PAGINA HABITACIONES */
+
+
+  .container-habitaciones {
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 220, 185);
+  }
+
+  .target-habitacion {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+
+  .target-hab-img {
+    margin: 0;
+    padding: 0px;
+    width: 98vw;
+  }
+
+  .target-hab-img img {
+    padding: 0px;
+    width: 95%;
+  }
+
+  .target-hab-info {
+    /* background-color: beige; */
+    margin: 0;
+    padding: 0px;
+    width: 93vw;
+    display: flex;
+    text-align: center;
+  }
+
+  .target-hab-info1 {
+    /* background-color: aquamarine; */
+    margin: 0;
+    padding: 0px;
+    padding: 15px;
+    padding-left: 20px;
+    width: 50%;
+    justify-items: left;
+  }
+
+  .target-hab-info2 {
+    /* background-color: rgb(214, 214, 241); */
+    margin: 0;
+    padding: 15px;
+    width: 43%;
+    justify-items: center;
+  }
+
+  .h-valoracion {
+    background-color: rgb(255, 255, 145);
+    border-radius: 25px;
+    padding: 15px;
+    color: rgb(0, 0, 0);
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+
+  .h-desde {
+    padding: 40px 0px 0px 0px;
+    color: rgb(206, 6, 6);
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+
+  .h-precio {
+    padding: 20px 0px 40px 0px;
+    color: rgb(50, 50, 50);
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.1rem;
+  }
+
+  .div-enlace-res {
+    padding: 40;
+    width: 120px;
+    border: 3px solid rgb(206, 6, 6);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .div-enlace-res:hover {
+    border: 5px solid rgb(255, 255, 145);
+    border-radius: 10px;
+    background-color: rgb(138, 253, 161);
+  }
+
+  .t-enlace-res {
+    padding: 10px;
+    padding-left: 20px;
+    color: rgb(206, 6, 6);
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: right;
+  }
+
+  .t-enlace-res:hover {
+    color: green;
+    font-size: 1.4rem;
+  }
+
+
+
+
+
+
+
+  /* DE LA PAGINA INDEX */
+  .foot {
+    padding: 2px;
+    /* height: 20vh; */
+    font-weight: 200;
+    font-size: .9rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .logo-foot {
+    max-width: 120px;
+  }
+
+  .ico-foot {
+    max-width: 70px;
+  }
+
+  .t-foot {
+    padding: 10px;
+    font-size: .8rem;
+    /* height: 30px; */
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* pantallas grandes  */
+
+@media (min-width: 968px) {
+
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  nav div {
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .nav-menu {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* text-align: center; */
+    flex-wrap: wrap;
+    /* gap: 0px; */
+  }
+
+  .nav-opcion {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+  }
+
+  .logo-hamb img {
+    display: none;
+  }
+
+  .ico-hamb {
+    display: none;
+  }
+
+  .titulo-red {
+    padding: 15px;
+    font-size: 2.7rem;
+  }
+
+
+
+
+
+  video {
+    width: 300px;
+    height: 580px;
+  }
+
+
+
+
+
+  .div-servicios {
+
+    /* background-color: #96cc20; */
+    margin: 0;
+    padding: 0;
+    padding-top: 80px;
+    /* padding-left: 10%; */
+    /* padding-right: 10%; */
+
+    /*  width: 80vw; */
+    width: 90%;
+
+    display: flex;
+    justify-content: flex-end;
+
+
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+
+
+
+
+
+  .div-serv-img {
+    margin: 0;
+    padding: 0;
+    max-width: 45%;
+    /* width: 50%; */
+    flex-wrap: wrap;
+
+    /* display: flex; */
+
+    /* justify-content: center; */
+    /* width: 90%; */
+    /* text-align: center; */
+    /* background-size: cover;
+    background-position: center center; */
+
+  }
+
+
+
+
+
+
+  .div-serv-text {
+    /* background-color: antiquewhite; */
+    width: 45%;
+
+    padding-left: 0px;
+    display: flex 1;
+    justify-items: center;
+    text-align: center;
+    /* padding-bottom: px;     */
+
+  }
+
+
+
+
+  .t-4 {
+    font-family: "Ubuntu", serif;
+
+    padding: 40px 20px 30px 20px;
+    /* padding-left: 3%;
+    padding-right: 3%; */
+    font-size: 1.25rem;
+    font-weight: 400;
+    font-style: bold;
+    text-align: justify;
+    line-height: 35px;
+    /* padding-bottom: 30px; */
+
+
+  }
+
+
+  /* DE PAGINA HABITACIONES */
+
+  .container-habitaciones {
+    margin: 0;
+    /* padding: 0px 0px 0px 0px; */
+  }
+
+
+
+  /* de pagina habitaciones */
+  .target-habitacion {
+
+
+
+    margin: 0;
+    padding: 0;
+    /* padding-top: 80px;  */
+    width: 80%;
+    display: flex;
+    /* justify-content: flex-end; */
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+
+    /* min-width: 920px; */
+    /* height: 350px; */
+  }
+
+
+
+  .target-hab-img {
+    margin: 0;
+    padding: 0;
+    max-width: 45%;
+    /* width: 100%; */
+    /* display: flex; */
+
+    border: 10px solid white;
+    border-radius: 15px;
+
+    flex-wrap: wrap;
+  }
+
+  .target-hab-img img {
+    padding: 0px;
+    width: 100%;
+    /* justify-content: left; */
+  }
+
+
+
+
+
+
+
+  .target-hab-info {
+    width: 50%;
+    /* padding-left: 0px; */
+    display: flex;
+    /* justify-items: left;
+    text-align: left; */
+  }
+
+
+
+  .target-hab-info1 {
+    margin: 0;
+    padding: 10px;
+    /* padding: 15px; */
+    text-align: left;
+    width: 50%;
+    display: flex 1;
+    flex: auto;
+    justify-items: left;
+    /* text-align: left; */
+    padding-bottom: 10px;
+    /* padding-left: 0px; */
+    /* padding-left: 0px; */
+    /* text-align: left; */
+    /* width: 50%; */
+    /* width: 45%; */
+    /* display: flex 1; */
+    /* justify-items: center; */
+    /* text-align: center; */
+    /* padding-bottom: px;     */
+  }
+
+  /* para llevar a grandes desde aqui */
+  .target-hab-info2 {
+    /* background-color: rgb(214, 214, 241); */
+    padding: 10px;
+    /* text-align: center; */
+    /* align-items: center; */
+    /* align-content: center; */
+    width: 50%;
+    /* flex: auto; */
+    /* flex-direction: column; */
+    justify-items: center;
+    /* align-items: center; */
+    /* justify-content: center; */
+    display: flex 1;
+  }
+
+  .h-valoracion {
+    background-color: rgb(245, 246, 209);
+    border-radius: 15px;
+    padding: 20px;
+    /* font-family: "Ubuntu", serif; */
+
+    color: rgb(0, 0, 0);
+
+    /* pant grande */
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+
+  .h-desde {
+    /* font-family: "Ubuntu", serif; */
+    padding: 40px 0px 0px 0px;
+    color: rgb(206, 6, 6);
+    /* pant grande */
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+
+  .h-precio {
+
+    /* padding: 20px; */
+    padding: 20px 0px 40px 0px;
+    color: rgb(50, 50, 50);
+    /* font-family: "Ubuntu", serif; */
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.1rem;
+  }
+
+
+
+  .div-enlace-res {
+
+    padding: 40;
+    /* padding-left: 10px;
+  padding-right: 10px; */
+    /* background-color: #ef60d2; */
+    /* text-align: center; */
+    /* align-content: center; */
+
+    /* position: absolute; */
+    width: 120px;
+    /* height: 150px; */
+    border: 3px solid rgb(206, 6, 6);
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .div-enlace-res:hover {
+
+    border: 5px solid greenyellow;
+    border-radius: 10px;
+    background-color: rgb(138, 253, 161);
+  }
+
+  .t-enlace-res {
+    padding: 10px;
+    padding-left: 20px;
+    /* display: flex;
+  justify-content: center; */
+
+    /* background-color: aqua; */
+    /* text-align: left; */
+    /* border: 3px solid red; */
+    /* border-bottom: 2px solid red; */
+    color: rgb(206, 6, 6);
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: right;
+    /* border: 3px solid rgb(206, 6, 6); */
+  }
+
+  .t-enlace-res:hover {
+
+    color: green;
+    font-size: 1.4rem;
+  }
+
+
+
+  .foot {
+    padding: 20px;
+    height: 25vh;
+    font-weight: 200;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+    text-align: center;
+  }
+
+  .logo-foot {
+    max-width: 180px;
+  }
+
+  .ico-foot {
+    max-width: 100px;
+  }
+
+
+
+  .t-foot {
+    padding: 10px;
+    font-size: 1rem;
+    /* height: 30px; */
+  }
+
+}

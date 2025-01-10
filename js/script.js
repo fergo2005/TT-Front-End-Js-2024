@@ -6,7 +6,7 @@ const habitaciones = [
     {
         imagen: "img/twin-4.jpg",
         tipo: "Single",        
-        servicios: [" Tv de pantalla plana", "Wi-Fi gratis"],
+        servicios: [" Tv de pantalla plana hasta ", "Wi-Fi gratis"],
         clasificacion: 9.5,
         precio: 100000,
         disponibilidad: 5

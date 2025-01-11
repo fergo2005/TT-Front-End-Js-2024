@@ -101,9 +101,9 @@ nav {
 /* color: white; */
 /* } */
 
-nav div {
+/* nav div {
   margin: 0;
-}
+} */
 
 .logo-hamb {
   margin: 0;
@@ -115,13 +115,13 @@ nav div {
 
 .nav-opcion {
   margin: 0;
+  text-decoration: none;
 }
 
 .nav-opcion a {
   text-decoration: none;
-  color: white;
-  padding: 12px;
-  border-radius: 2px;
+ /*  color: white; */
+    border-radius: 2px;
   /* font-weight: 500; */
   /* font-size: 1rem; */
   /* font-family: "Ubuntu", serif;

@@ -5,10 +5,8 @@
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  /* box-sizing: border-box; */
-  /* font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif; */
+  margin: 0px;
+  padding: 0px; 
   font-family: Ubuntu, serif;
 }
 
@@ -16,105 +14,47 @@ html,
 body {
   height: 100%;
   width: 100%;
-  background-color: rgb(226, 225, 223);
+  /* background-color: rgb(246, 174, 174); */
+
 
 }
 
 header {
   margin: 0;
-  padding: 0;
   width: 100%;
   height: 20%;
   position: fixed;
   background-image: linear-gradient(rgb(0, 0, 0), rgba(250, 250, 250, 0));
-  /* font-family: Ubuntu, serif; */
-  font-weight: 500;
-  font-style: normal;
-  font-size: 1rem;
-  /* z-index: 10; */
-
-
-
-  /* text-align: center; */
-  /*  display: flex; */
-  /* justify-content: space-between; */
-  /* align-items: center; */
-  /* align-items: center; */
-  /* height: 100%; */
-  /* top: 0;
-  left: 0; */
-  /* background-color: hwb(0 0% 100% / 0.896); */
-  /* transition: 0.7s; */
-  /* pad: 30px 20px; */
-
-  /* background-image: url(img/frenteHAbg_98.jpg); */
-  /* background-repeat: no-repeat; */
-  /* background-size: cover; */
-  /* background-attachment: fixed; */
-  /* background-position: top; */
-  /* height: 50%;
-  font-family: "Ubuntu", serif;
-  font-weight: 300;
-  font-style: normal; */
-  /* font-size: 1.6em; */
-  /* display: block;
-  unicode-bidi: isolate; */
 
 }
 
 nav {
   margin: 0;
-  /* padding: 0; */
-  /* display: flex; */
-  /* justify-content: space-around; */
-  /* align-items: center; */
-  /* align-content: center; */
-}
-
-
-/* .nav-menu { */
-/* margin: 0; */
-/* padding: 0; */
-
-/* display: flex;   */
-/* justify-content: space-around; */
-/* align-items: center; */
-/* align-content: center; */
-
-/* gap: 30px; */
-/* position: relative; */
-
-/* background-color: #cc203b; */
-
-/* flex-direction: row; */
-/* flex-wrap: wrap; */
-
-
-/* gap: 10px; */
-/* position: fixed; */
-/* font-family:Arial, Helvetica, sans-serif; */
-/* font-style: bold; */
-
-
-/* background-color: rgba(19, 18, 18, 0.784); */
-/* backface-visibility: hidden; */
-/* color: white; */
-/* } */
-
-nav div {
-  margin: 0;
+  width: 100%;
+  /* background-color: blue; */
 }
 
 .logo-hamb {
   margin: 0;
+  /* background-color: #3120cc; */
 }
 
 .logo-hamb img {
   margin: 0;
 }
 
+.nav-menu {
+  margin: 0;
+  /* padding: 0; */
+  /* background-color: #cc2038; */
+}
+
+
+
 .nav-opcion {
   margin: 0;
+  list-style-type: none;
+
 }
 
 .nav-opcion a {
@@ -139,6 +79,7 @@ nav div {
 
 .logo img {
   margin: 0;
+  width: 150px;
   /* background-color: blue; */
   /* display: flex; */
   /* text-align: center; */
@@ -148,240 +89,122 @@ nav div {
 
 }
 
+.ico-hamb {
+  margin: 0;
+  /* background-color: blueviolet; */
+}
+
 .ico-hamb i {
   margin: 0;
   color: white;
 }
 
 .slider-habitaciones {
-  width: 100vw;
+  width: 100%;
   height: 59%;
-  background: url(../img/Habitaciones/bg_hab.jpg);
+  background: url(../img/Servicios/bg_contacto.jpg);
   background-size: cover;
   background-position: center center;
 }
 
-section {
-  margin: 0px;
-  /* border: 3px solid rgb(188, 67, 33); */
-}
-
 .titulo-pagina {
   margin: 0;
-  /* background-color: rgb(255, 220, 185); */
-
-}
-
-.titulo-red-hab {
-  margin: 0;
-  color: rgb(206, 6, 6);
-  text-align: center;
-  font-style: normal;
-}
-
-.container-habitaciones {
-  margin: 0;
-  padding-left: 30px;
-  padding-right: 30px;
-
-
-  
-  display: grid;
-
-
-  justify-content: center;
-  align-items: center;
-  grid-template-columns: 1fr;
-  display: flex;
-  flex-wrap: wrap;
-  /* align-items: center; */
-  /* -ms-grid-column-align: center; */
-  /* place-items: center; */
-  gap: 30px;
-  /* border: 55px rgb(14, 14, 14); */
-}
-
-.target-habitacion {
-  margin: 0px;
-  /* width: 1100PX; */
-  /* height: 340px; */
-  border-radius: 10px;
-  background-color: rgb(255, 255, 255);
-  box-shadow: 0px 0px 10px 5px rgba(76, 75, 75, 0.2);
-  display: flex;
-  justify-content: center;
-}
-
-.target-hab-img {
-  /* background-color: aqua; */
-  margin: 0;
-  padding: 10px 10px 10px 10px;
-  /* width: 50%; */
-
-  /* background-position: center center; */
-}
-
-.target-hab-img img {
-  margin: 0;
-  /* padding: 10px; */
-  /* width: 100%; */
-  /* height: 100%; */
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* justify-content: center; */
-  /* align-items: center; */
-}
-
-.target-hab-info {
-  margin: 0;
-  /* padding: 20px 10px 10px 10px; */
-  /*   padding: 10px; */
-  width: 48%;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  /* height: 100%; */
-  /* padding-left: 20px; */
-  /* display: flex; */
-  /* justify-items: left;
-  text-align: left; */
-
-  /* width: 50%; */
-  /* background-color: aqua; */
-}
-
-/* .target-hab-info1 {
-  margin: 0; 
-  text-align: left;
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: start;
-  gap: 10px;
-} */
-
-.h-tipo {
-  /* font-family: "Ubuntu", serif; */
-  padding: 15px;
-  color: rgb(206, 6, 6);
-  /* pant grande */
-  font-size: 1.6rem;
-  font-weight: 400;
-}
-
-.h-servicios {
-
-  padding: 5px;
-  color: rgb(61, 60, 60);
-  /* font-family: "Ubuntu", serif; */
-  font-weight: 300;
-  font-style: normal;
-  font-size: 1.1rem;
-}
-
-.target-hab-info2 {
-  padding: 30px 0px 0px 0px;
-  width: 80%;
-  display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
+
+  background-color: rgb(255, 220, 185);
+
 }
 
-.h-valoracion {
-  background-color: rgb(133, 134, 131);
-  border-radius: 15px;
-  padding: 10px;
-  color: rgb(224, 248, 103);
-  font-size: 1.1rem;
+.titulo-red-pag {
+  margin: 0;
+  color: rgb(206, 6, 6);
+  text-align: center;
+  /* font-style: normal; */
+  /* background-color: aqua; */
+}
+
+.subtitulo {
+  margin: 0;
+  /* font-size: 1.1rem;
   font-weight: 400;
+  font-style: normal;  
+  text-align: center; */
+  /* background-color: aqua; */
 }
 
-.h-desde {
+.texto {
   margin: 0;
-  /* font-family: "Ubuntu", serif; */
-  /* padding: 20px 0px 0px 0px; */
-  /* color: rgb(0, 0, 0); */
-  /* pant grande */
-  /* font-size: 1.1rem; */
-  /* font-weight: 400; */
+  text-align: justify;
+  font-style: normal;
+  color: rgb(0, 0, 0);
+  background-color: aliceblue;
 }
 
-.h-precio {
-  margin: 0;
-  /* padding: 5px 0px 20px 0px; */
-  /* font-weight: 400; */
-  /* font-size: 1.1rem; */
-}
-
-.h-disponibles {
-  margin: 0;
-  /* padding: 0px 0px 20px 0px;
-  color: rgb(42, 35, 185);
-  font-size: 1.3rem;
-  font-weight: 400; */
-}
-
-.div-enlace-res {
-
-  /* padding: 0px; */
-  width: 120px;
-  border: 3px solid rgb(206, 6, 6);
-  border-radius: 15px;
+.container-servicios {
+  margin: 0px;
+  width: 100%;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  /* padding: 20px 30px 20px 30px; */
+  /* background-color: rgb(165, 127, 255); */
+}
+
+.serv-img {
+  margin: 0;
+  /* max-width: 45%; */
+  /* flex-wrap: wrap; */
+  /* background-color: azure; */
+}
+
+.serv-img img {
+  margin: 0;
+  /* width: 100%; */
 
 }
 
-.div-enlace-res:hover {
-
-  /* border: 5px solid greenyellow; */
-  /* border-radius: 15px; */
-  /* background-color: rgb(138, 253, 161); */
+.serv-texto {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+  gap: 15px;
+  /* background-color: bisque; */
 }
 
-.t-enlace-res {
-  padding: 5px;
-  color: rgb(206, 6, 6);
-  font-size: 1.3rem;
-  font-weight: bold;
-  text-decoration: none;
-  text-align: right;
+.serv-text-tit {
+  display: flex;
+  margin: 0px;
+
+  /* padding-left: 30px; */
+
+  /* font-weight: 400;
+  font-style: normal;
+  color: #cc2038;
+  font-size: 2.2rem; */
+
 }
 
+.serv-text-text {
 
-.t-enlace-res:hover {
-  /* color: green; */
-  /* font-size: 1.3rem; */
-  scale: 1.2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* padding: 0px 30px 0px 0px; */
+  /* padding: 40px 10px 40px 20px; */
+
+
+  /* background-color: aquamarine; */
+  /* font-size: 1.1rem; 
+    line-height: 30px; */
 }
-
-.dispo {
-  height: 100px;
-  display: grid;
-  place-content: center;
-  background-color: rgb(255, 220, 185);
-}
-
-.t-dispo {
-  width: 250px;
-  height: 50px;
-  border: 5px solid rgb(104, 65, 246);
-  border-radius: 15px;
-  color: blue;
-  font-size: 1.3rem;
-}
-
-.t-dispo:hover {
-  border: 5px solid rgb(127, 255, 0);
-  color: rgb(18, 34, 2);
-  font-weight: 500;
-}
-
-
-
-
-
-
-
 
 
 
@@ -393,7 +216,7 @@ section {
   color: rgb(255, 250, 250);
   font-family: "Ubuntu", serif;
   font-style: normal;
-
+  width: 100%;
 }
 
 .foot-location {
@@ -455,35 +278,133 @@ section {
     /* background-color: rgb(214, 245, 208); */
   }
 
+  nav {
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  .logo-hamb img {
+    /* padding-top: 20px; */
+    padding: 20px;
+    max-width: 130px;
+    /* display: none; */
+  }
+
   .nav-menu {
+    padding: 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
     padding-right: 40px;
+    display: none;
+    /* gap: 20px; */
   }
 
-  .nav-opcion {
+  /* .nav-opcion {
     display: none;
-  }
+  } */
 
   .logo img {
     display: none;
   }
 
-  .logo-hamb img {
-    /* padding-top: 20px; */
-    padding: 0;
-    max-width: 120px;
-    /* display: none; */
-  }
-
   .ico-hamb {
-    display: flex;
+    font-size: 30px;
+    /* display: flex; */
     /* justify-content: space-between; */
     /* align-items: end; */
+  }
 
-    font-size: 25px;
+  .ico-hamb i {
+    padding: 15px;
+    font-size: 2rem;
+
+  }
+
+  .titulo-red-pag {
+    /* padding: 30px; */
+    padding-top: 20px;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2.2rem;
+  }
+
+  .subtitulo {
+    /* padding-left: 15%;
+    padding-right: 15%; */
+    padding: 15px 0% 10px 0%;
+    font-size: 0.9rem;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+  }
+
+  .texto {
+    padding: 10px 5% 20px 5%;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 25px;
+  }
+
+  .container-servicios {
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* gap: 30px; */
+  }
+
+  .serv-img {
+
+    padding: 0px;
+    width: 80%;
+    /* height: 100%; */
+    display: flex;
+    /* background-color: #cc2038; */
+    /*     flex-wrap: wrap; */
+  }
+
+  .serv-img img {
+    /* padding: 20px; */
+    /* padding: 0px 15% 0px 15%; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: center center;
+
+  }
+
+  .serv-texto {
+    padding: 30px 20px 10px 50px;
+    width: 70%;
+    height: 100%;
+  }
+
+  .serv-text-tit {
+    font-weight: 400;
+    font-style: normal;
+    color: #cc2038;
+    font-size: 1.9rem;
+  }
+
+  .serv-text-text {
+
+    /* display: flex; */
+    /* justify-content: center; */
+    line-height: 30px;
+    font-weight: 400;
+    font-style: bold;
+    text-align: justify;
+    font-size: 1rem;
   }
 
   .titulo-red-hab {
@@ -491,12 +412,7 @@ section {
     font-size: 2rem;
   }
 
-  /* .subtit-1 {
-    padding-left: 5%;
-    padding-right: 5%;
-    padding: 15px;
-    font-size: .9rem;
-  } */
+
 
 
 
@@ -742,35 +658,45 @@ section {
 
 @media (min-width: 968px) {
 
+  header {
+    padding: 0px;
+    /* font-weight: 500; */
+    font-style: normal;
+    /* font-size: 1.1rem; */
+  }
 
   nav {
-    margin: 0;
+    padding: 0px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     /* flex-wrap: wrap; */
-    gap: 3px;
-  }
-
-  nav div {
-    padding: 0;
-    /* display: flex; */
-    /* justify-content: space-around; */
-    /* align-items: center; */
+    /* gap: 80px; */
   }
 
   .logo-hamb {
     padding: 0;
+    display: none;
 
   }
 
   .logo-hamb img {
     padding: 0;
-    display: none;
+
+  }
+
+  .nav-menu {
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    gap: 20px;
   }
 
   .nav-opcion {
     padding: 0;
+
     /* display: flex; */
     /* justify-content: space-around; */
     /* align-items: center; */
@@ -778,120 +704,134 @@ section {
   }
 
   .nav-opcion a {
-    font-size: 1rem;
+    font-weight: 400;
+    font-size: 1.1rem;
   }
 
   .logo img {
-    padding: 0;
-    width: 150px;
+    padding: 10px;
     /* display: none; */
   }
 
-  .ico-hamb i {
-    padding: 0;
+  .ico-hamb {
+    padding: 0px;
     display: none;
   }
 
-  .titulo-red-hab {
-    padding: 10px;
-    font-weight: 90;
-    font-size: 2.4rem;
-  }
-
-
-
-
-
-
-  .target-habitacion {
-    /*  margin: 0px;   */
-    width: 1100PX;
-    height: 340px;
-    /* border-radius: 10px; */
-    /* background-color: rgb(255, 255, 255); */
-    /* box-shadow: 0px 0px 9px 9px rgba(76, 75, 75, 0.2); */
-    /* display: flex;   */
-    /* justify-content: center;  */
-  }
-
-
-  .target-hab-img {
-    /* background-color: aqua; */
-    /*   margin: 0; */
-    /* padding: 10px 10px 10px 10px; */
-    width: 50%;
-
-    /* background-position: center center; */
-  }
-
-  .target-hab-img img {
+  .titulo-pagina {
     padding: 0px;
-    width: 100%;
-    height: 100%;
+    /* padding: 30px;   */
+    /* padding-top: 30px; */
+    /* background-color: rgb(255, 220, 185); */
   }
 
-  .target-hab-info1 {
-    padding: 15px;
-    text-align: left;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    /* gap: 10px; */
-
-    /* padding-bottom: 10px; */
-
-    /* background-color: aqua; */
+  .titulo-red-pag {
+    /* padding: 30px; */
+    padding-top: 30px;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2.7rem;
   }
 
-  .h-desde {
-    /* font-family: "Ubuntu", serif; */
-    padding: 20px 0px 0px 0px;
-    /* color: rgb(0, 0, 0); */
-    /* pant grande */
+  .subtitulo {
+    /* padding-left: 15%;
+    padding-right: 15%; */
+    padding: 20px 15% 0px 15%;
     font-size: 1.1rem;
     font-weight: 400;
+    font-style: normal;
+    text-align: center;
   }
 
-  .h-precio {
-    padding: 5px 0px 20px 0px;
-    font-weight: 400;
-    font-size: 1.3rem;
+  .texto {
+    padding: 20px 15% 20px 15%;
+    font-size: 1.2em;
+    font-weight: 300;
+    line-height: 35px;
+    background-color: aliceblue;
   }
 
-  .h-disponibles {
-    padding: 0px 0px 20px 0px;
-    color: rgb(38, 28, 225);
-    font-size: 1.4rem;
-    font-weight: 400;
-  }
-
-  .div-enlace-res {
+  .container-servicios {
     padding: 0px;
-    /* display: flex;
-    justify-content: center; */
 
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* align-content: center; */
+    /* background-color: aqua; */
+
+  }
+
+  .serv-img {
+    padding: 0px;
+    width: 40%;
+    /* display: flex;     */
+    /* align-content: flex-end; */
+    /* justify-content: flex-end; */
+    /* /* flex-wrap: wrap; */
+  }
+
+  .serv-img img {
+    /* padding: 0px; */
+    width: 100%;
+    height: 100%;
+    position: center center;
+
+  }
+
+  .serv-texto {
+    padding: 20px 20px 20px 80px;
+    width: 30%;
+    /* padding: 20px 0% 0px 80px; */
+    /* padding-left: 60px;
+    padding-right: 50px; */
+    /* text-align: left; */
+    /* justify-items:flex-start; */
+    /* text-align: center; */
+    /* padding-bottom: px;     */
+
+  }
+
+  .serv-text-tit {
+    padding: 0px;
+    /* padding-left: 30px; */
+    /* font-family: "Ubuntu", serif; */
+    font-weight: 400;
+    font-style: normal;
+    color: #cc2038;
+    font-size: 2.1rem;
+    /* width: 100%; */
+    background-color: aqua;
+  }
+
+  .serv-text-text {
+
+    /* display: flex;
+  justify-content: center; */
+    line-height: 30px;
+    font-weight: 400;
+    font-style: bold;
+    text-align: justify;
+    font-size: 1.1rem;
   }
 
 
 
 
-
-
-
-
-
-
+  /* .div-enlace-res { */
+  /*     padding: 0px; */
+  /* display: flex;
+    justify-content: center; */
+  /*   } */
 
   /*   .t-enlace-res:hover {
     color: green;
     font-size: 1.4rem;
   } */
 
-
-
   .foot {
-    padding: 20px;
+    /*     padding: 20px; */
     height: 25vh;
     font-weight: 200;
     font-size: 1.2rem;

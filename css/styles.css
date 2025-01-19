@@ -10,8 +10,7 @@
   font-family: Ubuntu, serif;
 }
 
-html,
-body {
+html, body {
   height: 100%;
   width: 100%;
 }
@@ -46,24 +45,16 @@ nav {
   /* background-color: #cc2038; */
 }
 
-
-
 .nav-opcion {
   margin: 0;
   list-style-type: none;
-
 }
 
 .nav-opcion a {
   text-decoration: none;
   color: white;
   padding: 12px;
-  border-radius: 2px;
-  /* font-weight: 500; */
-  /* font-size: 1rem; */
-  /* font-family: "Ubuntu", serif;
-  font-weight: 400;
-  font-style: normal; */
+  border-radius: 2px;  
 }
 
 .nav-opcion a:hover {
@@ -77,13 +68,6 @@ nav {
 .logo img {
   margin: 0;
   width: 150px;
-  /* background-color: blue; */
-  /* display: flex; */
-  /* text-align: center; */
-  /* padding: 10px; */
-  /* width: 150px; */
-  /* display: none; */
-
 }
 
 .ico-hamb {
@@ -105,48 +89,24 @@ nav {
   background-position: center center;
 }
 
-
 section {
   margin: 0px;
-
-  /* background-color: #cc203b; */
-  /* background-color: blue; */
-
-  font-family: "Ubuntu", serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 1rem;
-
-  padding: 30px;
-
-  /* border: 3px solid rgb(188, 67, 33); */
-
-  text-align: center;
-  align-items: center;
-
-  /* padding-top: 50px; */
-  /* padding-bottom: 50px; */
 }
 
 .section1 {
   margin: 0px;
   padding: 20px;
-  text-align: center;
-
-  
+  text-align: center;  
 }
 
 .titulo-red {
   margin: 0px;
   /* padding: 10px; */
-  padding-top: 20px;
-  font-family: "Ubuntu", serif;
+  padding-top: 20px;  
   font-weight: 300;
   font-style: normal;
 
   color: rgb(206, 6, 6);
-
-  
 
 }
 
@@ -478,7 +438,6 @@ iframe {
     align-items: center;
   }
 
-
   .logo-hamb img {
     /* padding-top: 20px; */
     padding: 20px;
@@ -486,8 +445,7 @@ iframe {
     /* display: none; */
   }
 
-  .nav-menu {
-    padding: 0px;
+  .nav-menu {    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -497,56 +455,19 @@ iframe {
     /* gap: 20px; */
   }
 
-  /* .nav-opcion {
-    display: none;
-  } */
-
   .logo img {
     display: none;
   }
 
   .ico-hamb {
-    font-size: 30px;
-    /* display: flex; */
-    /* justify-content: space-between; */
-    /* align-items: end; */
+    padding: 0px;
+    /* font-size: 30px; */
   }
 
   .ico-hamb i {
-    padding: 15px;
-    font-size: 2rem;
-
+    padding: 25px;
+    font-size: 2.5rem;
   }
-
-
-  /* .nav-menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px;
-    padding-right: 40px;
-  } */
-
-  /* .nav-opcion {
-    display: none;
-  } */
-
-  /* .logo img {
-    display: none;
-  }
-
-  .logo-hamb img {
-   
-    padding: 0;
-    max-width: 150px;
-   
-  }
-
-  .ico-hamb {
-    display: flex;
-      font-size: 40px;
-  } */
-
 
 
   .titulo-red {
@@ -789,7 +710,7 @@ iframe {
     font-size: 1.1rem;
   }
 
-  nav {
+  .nav {
     padding: 0px;
     display: flex;
     justify-content: space-around;
@@ -827,6 +748,15 @@ iframe {
     /* flex-wrap: wrap; */
   }
 
+  .nav-opcion {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+  }
   .nav-opcion a {
     font-weight: 400;
     font-size: 1.1rem;
@@ -837,52 +767,22 @@ iframe {
     /* display: none; */
   }
 
+  
+
+  
+
+  
+
+  
+
+
   .ico-hamb {
     padding: 0px;
     display: none;
   }
-
-  /* nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-
-  nav div {
-    margin: 0;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-
-  .nav-menu {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-   
-    flex-wrap: wrap;
-   
-  }
-
-  .nav-opcion {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-
-  }
-
-  .logo-hamb img {
-    display: none;
-  }
-
   .ico-hamb {
     display: none;
-  } */
+  }
 
 
 

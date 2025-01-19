@@ -15,48 +15,68 @@
 
 <body>
     <header>
-        <nav class="nav-menu">
+        <nav>
             <div class="logo-hamb">
                 <img src="img/logo-Hotel-Asturias.png" alt="no carga">
             </div>
-            <div class="nav-opcion">
-                <a href="index.html">HOME</a>
-            </div>
-            <div class="nav-opcion">
-                <a href="nosotros.html">NOSOTROS</a>
-            </div>
-            <div class="nav-opcion">
-                <a href="#" class="paginaActiva">HABITACIONES</a>
-            </div>
-            <div class="logo">
-                <img src="img/logo-Hotel-Asturias.png" alt="no carga">
-            </div>
-            <div class="nav-opcion">
-                <a href="#">SERVICIOS</a>
-            </div>
-            <div class="nav-opcion">
-                <a href="#">GALERIA</a>
-            </div>
-            <div class="nav-opcion">
-                <a href="#">CONTACTO</a>
-            </div>
+            <ul id="menuList">
+                <li>
+                    <a href="index.html">HOME</a>
+                </li>
+                <li>
+                    <a href="./nosotros-ha.html">NOSOTROS</a>
+                </li>
+                <li>
+                    <a href="#" class="paginaActiva">HABITACIONES</a>
+                </li>
+
+                <li class="logo-menu">
+                    <img src="img/logo-Hotel-Asturias.png" alt="no carga">
+                </li>
+
+                <li>
+                    <a href="./servicios-ha.html">SERVICIOS</a>
+                </li>
+                <li>
+                    <a href="#">GALERIA</a>
+                </li>
+                <li>
+                    <a href="#">CONTACTO</a>
+                </li>
+            </ul>
             <div class="ico-hamb">
-                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-bars" onclick="tocaMenu()"></i>
+                <!-- <i class="fa-solid fa-bars"></i> -->
             </div>
         </nav>
+        <script>
+            let menuList = document.getElementById("menuList")
+            menuList.style.maxHeight = "0px";
+    
+            function tocaMenu() {
+                if (menuList.style.maxHeight == "0px") {
+                    menuList.style.maxHeight = "300px";
+                }
+                else {
+                    menuList.style.height = "0px";
+                }
+            };    
+        </script>
     </header>
+
+    
 
     <div class="slider-habitaciones">
         <!-- para pasar imagenes en la portada -->
-         <!-- <img src="img/bg_hab.jpg" alt="no"> -->
+        <!-- <img src="img/bg_hab.jpg" alt="no"> -->
     </div>
 
     <section class="titulo-pagina">
         <p class="titulo-red-hab">Habitaciones</p>
     </section>
-        
-    <div class="container-habitaciones" id="contenedorHabitaciones" >
-        
+
+    <div class="container-habitaciones" id="contenedorHabitaciones">
+
         <!-- <div class="target-habitacion">
             <div class="target-hab-img">
                 <img src="img/twin-4.jpg" alt="No carga">
@@ -82,9 +102,9 @@
         <input class="t-dispo" id="verDisponibilidad" type="button" value="VER DISPONIBILIDAD">
     </div>
 
-   
 
-    
+
+
 
 
     <footer>
@@ -113,6 +133,7 @@
 
     <script src="js/script.js"></script>
 
+    <script src="https://kit.fontawesome.com/a0ee3d7809.js" crossorigin="anonymous"></script>
 
 </body>
 

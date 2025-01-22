@@ -32,11 +32,9 @@ nav {
 
 .logo-hamb {
   margin: 0;
+  
+  /* color: white; */
   /* background-color: #3120cc; */
-}
-
-.logo-hamb img {
-  margin: 0;
 }
 
 .nav-menu {
@@ -47,7 +45,7 @@ nav {
 
 .nav-opcion {
   margin: 0;
-  list-style-type: none;
+  /* list-style-type: none; */
 }
 
 .nav-opcion a {
@@ -59,6 +57,7 @@ nav {
 
 .nav-opcion a:hover {
   background-color: red;
+  transition: .5s;
 }
 
 .paginaActiva {
@@ -347,7 +346,7 @@ iframe {
 
 /* PAGINA HABITACIONES  GENERAL */
 
-.titulo-red-hab {
+/* .titulo-red-hab {
   padding: 0px;
   padding-top: 0px;
   font-family: "Ubuntu", serif;
@@ -355,16 +354,16 @@ iframe {
   font-style: normal;
   color: rgb(206, 6, 6);
   font-size: 2.7rem;
-}
+} */
 
 
 
-.titulo-pagina {
+/* .titulo-pagina {
   background-color: rgb(255, 220, 185);
   padding-bottom: 30px;
-}
+} */
 
-.t-enlace-res {
+/* .t-enlace-res {
   padding: 10px;
   padding-left: 20px;
   
@@ -373,14 +372,14 @@ iframe {
   font-weight: bold;
   text-decoration: none;
   text-align: right;
-  /* border: 3px solid rgb(206, 6, 6); */
-}
 
-.t-enlace-res:hover {
+} */
+
+/* .t-enlace-res:hover {
 
   color: green;
   font-size: 1.4rem;
-}
+} */
 
 
 
@@ -712,6 +711,7 @@ iframe {
 
   .nav {
     padding: 0px;
+    /* height: 100%; */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -720,7 +720,7 @@ iframe {
   }
 
   .logo-hamb {
-    padding: 0;
+    padding: 0px;
     display: none;
 
   }
@@ -738,19 +738,10 @@ iframe {
     align-content: center;
     gap: 20px;
   }
-
-  .nav-opcion {
-    padding: 0;
-
-    /* display: flex; */
-    /* justify-content: space-around; */
-    /* align-items: center; */
-    /* flex-wrap: wrap; */
-  }
-
+  
   .nav-opcion {
     margin: 0;
-    padding: 0;
+    padding: 0px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -776,10 +767,10 @@ iframe {
   
 
 
-  .ico-hamb {
+  /* .ico-hamb {
     padding: 0px;
     display: none;
-  }
+  } */
   .ico-hamb {
     display: none;
   }

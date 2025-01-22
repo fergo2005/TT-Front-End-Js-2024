@@ -15,35 +15,37 @@
 
 <body>
     <header>
-        <nav>
+        <nav class="nav">
             <div class="logo-hamb">
                 <img src="img/logo-Hotel-Asturias.png" alt="no carga">
             </div>
-            <ul id="menuList">
-                <li>
-                    <a href="index.html">HOME</a>
-                </li>
-                <li>
-                    <a href="./nosotros-ha.html">NOSOTROS</a>
-                </li>
-                <li>
-                    <a href="#" class="paginaActiva">HABITACIONES</a>
-                </li>
+            <div class="menu-hamb">
+                <ul class="nav-menu" id="menuList">
+                    <li class="nav-opcion">
+                        <a href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-opcion">
+                        <a href="nosotros-ha.html">NOSOTROS</a>
+                    </li>
+                    <li class="nav-opcion">
+                        <a href="#" class="paginaActiva">HABITACIONES</a>
+                    </li>
 
-                <li class="logo-menu">
-                    <img src="img/logo-Hotel-Asturias.png" alt="no carga">
-                </li>
+                    <li class="logo">
+                        <img src="img/logo-Hotel-Asturias.png" alt="no carga">
+                    </li>
 
-                <li>
-                    <a href="./servicios-ha.html">SERVICIOS</a>
-                </li>
-                <li>
-                    <a href="#">GALERIA</a>
-                </li>
-                <li>
-                    <a href="#">CONTACTO</a>
-                </li>
-            </ul>
+                    <li class="nav-opcion">
+                        <a href="./servicios-ha.html">SERVICIOS</a>
+                    </li>
+                    <li class="nav-opcion">
+                        <a href="#">GALERIA</a>
+                    </li>
+                    <li class="nav-opcion">
+                        <a href="#">CONTACTO</a>
+                    </li>
+                </ul>
+            </div>
             <div class="ico-hamb">
                 <i class="fa-solid fa-bars" onclick="tocaMenu()"></i>
                 <!-- <i class="fa-solid fa-bars"></i> -->
@@ -52,7 +54,7 @@
         <script>
             let menuList = document.getElementById("menuList")
             menuList.style.maxHeight = "0px";
-    
+
             function tocaMenu() {
                 if (menuList.style.maxHeight == "0px") {
                     menuList.style.maxHeight = "300px";
@@ -64,7 +66,7 @@
         </script>
     </header>
 
-    
+
 
     <div class="slider-habitaciones">
         <!-- para pasar imagenes en la portada -->
@@ -108,7 +110,7 @@
 
 
     <footer>
-        <div class="foot">
+        <!-- <div class="foot">
             <div class="foot-secc">
                 <img class="logo-foot" src="img/logo-Hotel-Asturias.png" alt="no carga">
             </div>
@@ -127,7 +129,7 @@
             <div class="foot-secc">
                 <img src="img/logoFG.png" alt="No carga" class="ico-foot">
             </div>
-        </div>
+        </div> -->
         <p class="t-foot">Diseño Web © 2024 - Talento Tech - Front-End JS (Trabajo_Final_de_Gómez_Fernando_Sebstián)</p>
     </footer>
 

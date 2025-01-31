@@ -4,85 +4,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
-    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
-        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&disp
-        lay=swap"> -->
-    <!-- <link rel="icon" href="img/IconoFG.ico"> -->
+   
     <link rel="icon" href="ico/iconoFG.ico">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Proy-Final-TTech2024-FerSebaGomez</title>
+    <title>Proy-Final-TTech2024-FSG</title>
 </head>
 
 <body>
     <header>
-        <nav class="nav">
+        <nav class="todo-el-menu"> <!-- Igual a todo-el-menu -->
             <div class="logo-hamb">
                 <img src="img/logo-Hotel-Asturias.png" alt="no carga">
             </div>
-            <ul class="nav-menu">
-                <li class="nav-opcion">
-                    <a href="index.html" class="paginaActiva">HOME</a>
-                </li>
-                <li class="nav-opcion">
-                    <a href="nosotros-ha.html">NOSOTROS</a>
-                </li>
-                <li class="nav-opcion">
-                    <a href="habitaciones-ha.html">HABITACIONES</a>
-                </li>
-
-                <li class="logo">
-                    <img src="img/logo-Hotel-Asturias.png" alt="no carga">
-                </li>
-
-                <li class="nav-opcion">
-                    <a href="servicios-ha.html">SERVICIOS</a>
-                </li>
-                <li class="nav-opcion">
-                    <a href="galeria.html">GALERIA</a>
-                </li>
-                <li class="nav-opcion">
-                    <a href="#">CONTACTO</a>
-                </li>
-            </ul>
+            <div class="nav">
+                <ul class="nav-menu">
+                    <li class="nav-opcion">
+                        <a href="index.html" class="paginaActiva">home</a>
+                    </li>
+                    <li class="nav-opcion">
+                        <a href="nosotros-ha.html">nosotros</a>
+                    </li>
+                    <li class="nav-opcion">
+                        <a href="habitaciones-ha.html">habitaciones</a>
+                    </li>
+    
+                    <li class="nav-logo"> <!-- Igual a nav-logo -->
+                        <img src="img/logo-Hotel-Asturias.png" alt="no carga">
+                    </li>
+    
+                    <li class="nav-opcion">
+                        <a href="servicios-ha.html">servicios</a>
+                    </li>
+                    <li class="nav-opcion">
+                        <a href="galeria-ha.html">galeria</a>
+                    </li>
+                    <li class="nav-opcion">
+                        <a href="#">contacto</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="conmutador">
+                <input type="checkbox" id="menu">
+                <!-- <label for="menu"></label> -->
+                <div class="menu-enlaces">
+                    <ul class="nav-menu">
+                        <li class="nav-opcion">
+                            <a href="index.html" class="paginaActiva">home</a>
+                        </li>
+                        <li class="nav-opcion">
+                            <a href="nosotros-ha.html">nosostros</a>
+                        </li>
+                        <li class="nav-opcion">
+                            <a href="habitaciones-ha.html">habitaciones</a>
+                        </li>
+                        <li class="nav-opcion">
+                            <a href="servicios-ha.html">servicios</a>
+                        </li>
+                        <li class="nav-opcion">
+                            <a href="galeria-ha.html">galeria</a>
+                        </li>
+                        <li class="nav-opcion">
+                            <a href="#">contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
             <div class="ico-hamb">
-                <i class="fa-solid fa-bars"></i>
+                <label for="menu">
+                    <!-- <input type="checkbox" name="menu"> -->
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+
+
+                <!-- <input type="checkbox" id="menu">
+                <label for="menu">
+                    <i class="fa-solid fa-bars"></i>
+                </label> -->
+                
             </div>
         </nav>
 
-        <!-- <nav class="nav-menu">
-            <div class="logo-hamb">
-                <img src="img/logo-Hotel-Asturias.png" alt="no carga">
-            </div>
-            <div class="nav-opcion">
-                    <a href="#" class="paginaActiva">HOME</a>
-            </div>
-            <div class="nav-opcion">
-                <a href="nosotros-ha.html">NOSOTROS</a>
-            </div>
-            <div class="nav-opcion">
-                <a href="habitaciones-ha.html">HABITACIONES</a>
-            </div>
-            <div class="logo">
-                    <img src="img/logo-Hotel-Asturias.png" alt="no carga">
-            </div>
-            <div class="nav-opcion">
-                    <a href="servicios-ha.html">SERVICIOS</a>
-            </div>
-            <div class="nav-opcion">
-                    <a href="#">GALERIA</a>
-            </div>
-            <div class="nav-opcion">
-                    <a href="#">CONTACTO</a>
-            </div>
-            <div class="ico-hamb">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-        </nav> -->
     </header>
 
     <div class="slider">

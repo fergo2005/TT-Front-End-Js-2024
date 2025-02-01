@@ -167,7 +167,8 @@ header {
         border-radius: 2px;
     }
 
-    .nav-menu {        
+    .nav-menu {   
+        padding: 0;     
         display: flex;
         justify-content: space-around;
         align-items: center;        
@@ -274,6 +275,10 @@ header {
 /* para pantallas chicas */
 
 @media (max-width: 967px) {
+    
+    .nav {
+        display: none;
+    }
 
     header { 
         padding: 0;              
@@ -308,12 +313,11 @@ header {
         cursor: pointer;
     }
 
-    .nav {
-        display: none;
-    }
+    
 
 
     /* Menu styles */
+
     .conmutador {
         width: 100%;
         display: flex;
@@ -333,6 +337,7 @@ header {
         max-height: 0px;
         overflow: hidden;
         background-color: #00000010;
+
     }
 
     .nav-opcion {        
@@ -365,7 +370,7 @@ header {
 
     .titulo-red {
         padding-top: 15px;
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }    
 
     .subtitulo {

@@ -63,6 +63,7 @@ header {
   background-position: center center;
 }
 
+
 .titulos {
   text-align: center;
 }
@@ -75,14 +76,6 @@ header {
 .subtitulo {
   text-align: center;
 }
-
-/* .section1 {
-  margin: 0px;
-  padding: 20px;
-  text-align: center;
-} */
-
-
 
 .subtit-1 {
   padding-left: 15%;

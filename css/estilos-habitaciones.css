@@ -7,20 +7,20 @@
 
 * {
   margin: 0;
-  padding: 0;  
-  font-family: Ubuntu, serif;  
+  padding: 0;
+  font-family: Ubuntu, serif;
 }
 
 html,
 body {
   height: 100%;
-  width: 100%;  
+  width: 100%;
 }
 
 header {
   margin: 0;
   padding: 0;
-  width: 100%;  
+  width: 100%;
   background-image: linear-gradient(rgb(0, 0, 0), rgba(250, 250, 250, 0));
   position: fixed;
 }
@@ -75,7 +75,7 @@ header {
 }
 
 .titulo-red {
-  margin: 0px;  
+  margin: 0px;
   color: rgb(206, 6, 6);
 }
 
@@ -120,12 +120,12 @@ header {
 }
 
 .target-hab-img {
-  
+
   margin: 0;
   padding: 10px;
-  
+
   /* padding: 10px 10px 10px 10px; */
-  
+
 }
 
 
@@ -137,11 +137,11 @@ header {
   width: 48%;
   display: grid;
   grid-template-columns: 1fr 1fr;
- 
+
 }
 
-.h-tipo {    
-  color: rgb(206, 6, 6);      
+.h-tipo {
+  color: rgb(206, 6, 6);
   font-weight: 400;
 }
 
@@ -167,12 +167,12 @@ header {
 
 .h-desde {
   margin: 0;
-  
+
 }
 
 .h-precio {
   margin: 0;
- 
+
 }
 
 .h-disponibles {
@@ -181,24 +181,36 @@ header {
   font-weight: 600;
 }
 
-
-
-
-.dispo {
-  height: 100px;
-  display: grid;
-  place-content: center;
-  /* font-size: 5rem; */
-  
+.disponivilidad {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0 20px 0;
 }
 
+.btn-dispo {
+  /* background-color: rgba(255, 255, 255, 0); */
+  /* border-style: none; */
+  padding: 10px;
+  color: rgb(206, 6, 6);
+  /* font-size: 1rem; */
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  border: 3px solid rgb(206,6,6);
+  border-radius: 19px;
+}
 
-
-.t-dispo:hover {
-  border: 5px solid rgb(127, 255, 0);
+.btn-dispo:hover {
   color: rgb(41, 75, 7);
-  font-weight: 800;
+  border: 5px solid rgb(127, 255, 0);
+  /* border: 3px solid rgb(206,6,6); */
+  /* background-color: rgba(255, 255, 255, 0); */
+  /* font-weight: 500; */
+  scale: 1.1;
 }
+
 
 
 
@@ -279,11 +291,11 @@ header {
     /* font-weight: 400;
     font-style: normal;
     font-size: 1rem;
-    width: 100%; */    
+    width: 100%; */
   }
 
   .nav {
-    display: none; 
+    display: none;
   }
 
 
@@ -316,7 +328,7 @@ header {
     cursor: pointer;
   }
 
-  
+
 
 
   /* Menu styles */
@@ -362,7 +374,7 @@ header {
   }
 
 
-/* section slide */
+  /* section slide */
 
 
   .titulos {
@@ -407,7 +419,7 @@ header {
     /* height: 100%; */
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    
+
     /* position: center; */
   }
 
@@ -436,9 +448,9 @@ header {
   }
 
   .h-tipo {
-    padding: 10px;    
+    padding: 10px;
     /* pant chica */
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     font-weight: 400;
   }
 
@@ -452,18 +464,13 @@ header {
 
   }
 
-
-
-
-  
-
   .h-valoracion {
     background-color: rgb(244, 244, 103);
     border-radius: 16px;
     padding: 10px;
     color: rgb(0, 0, 0);
     font-size: 1rem;
-    font-weight: 400;    
+    font-weight: 600;
   }
 
   .h-desde {
@@ -477,8 +484,8 @@ header {
 
   .h-precio {
     padding: 5px 0px 0px 0px;
-    font-weight: 400;
-    font-size: 1rem;
+    font-weight: 500;
+    font-size: 1.1rem;
   }
 
   .h-disponibles {
@@ -489,61 +496,60 @@ header {
     /* font-weight: 400; */
   }
 
-  .div-enlace-res {
 
-    /* padding: 0px; */
-    width: 120px;
+
+  /* enlaces */
+
+  .div-enlace-res {
+    width: 100px;
     border: 3px solid rgb(206, 6, 6);
-    border-radius: 15px;
+    border-radius: 19px;
     display: flex;
     justify-content: center;
   }
-  
+
   .div-enlace-res:hover {
-    margin: 0;  
-    border: 3px solid rgb(127, 255, 0);
+    margin: 0;
+    border: 5px solid rgb(127, 255, 0);
   }
-  
-  .t-enlace-res {
-    padding: 3px;
+
+  .btn-enlace-res {
+    background-color: rgba(255, 255, 255, 0);
+    border-style: none;
+    padding: 4px;
     color: rgb(206, 6, 6);
-    font-size: 1.1rem;
-    font-weight: bold;
-    text-decoration: none;
-    text-align: right;
-    
+    font-size: 0.9rem;
+    font-weight: 500;
+    /* text-align: right; */
+
   }
-  
-  .t-enlace-res:hover {
-    /* border: 3px solid rgb(127, 255, 0); */
+
+  .btn-enlace-res:hover {
     color: rgb(41, 75, 7);
-    font-weight: 800;
+    background-color: rgba(255, 255, 255, 0);
+    font-weight: 500;
     scale: 1.2;
   }
 
-  
 
-  .t-dispo {
-    width: 200px;
-    height: 40px;
-    /* font-size: 5rem; */
-    border: 5px solid rgb(104, 65, 246);
-    border-radius: 15px;
-    color: blue;
+  .btn-dispo {
     font-size: 1rem;
   }
 
 
+
+
+
   .foot {
-    padding: 0px;
-    height: 30vh;
+    padding: 5px;
+    height: 30%;
     font-weight: 200;
     font-size: .9rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    
+
   }
 
   .foot-secc1,
@@ -565,7 +571,7 @@ header {
   .t-foot {
     padding: 10px;
     font-size: .8rem;
-    
+
   }
 
 
@@ -628,7 +634,7 @@ header {
   }
 
   header {
-    height: 20%;    
+    height: 20%;
   }
 
   .todo-el-menu {
@@ -674,7 +680,7 @@ header {
 
   /* Seccion Titulos */
 
-  
+
 
   .titulos {
     padding-top: 30px;
@@ -691,7 +697,7 @@ header {
 
 
 
-  .target-habitacion {    
+  .target-habitacion {
     width: 1100PX;
     height: 340px;
     /* border-radius: 10px; */
@@ -730,19 +736,22 @@ header {
     gap: 5px;
   }
 
-  .h-tipo {    
-    padding: 15px;    
+  .h-tipo {
+    padding: 15px;
     font-size: 1.6rem;
-    font-weight: 500;
+    font-weight: 400;
+  }
+
+  .h-servicios {
+    font-size: 1.1rem;
   }
 
   .h-valoracion {
     background-color: rgb(244, 244, 103);
-    /* background-color: rgb(133, 134, 131); */
     border-radius: 19px;
     padding: 15px;
     color: rgb(0, 0, 0);
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: 600;
   }
 
@@ -751,68 +760,64 @@ header {
     padding: 20px 0px 0px 0px;
     /* color: rgb(0, 0, 0); */
     /* pant grande */
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: 400;
   }
 
   .h-precio {
     padding: 5px 0px 20px 0px;
-    font-weight: 400;
-    font-size: 1.3rem;
+    font-weight: 500;
+    font-size: 1.4rem;
   }
 
   .h-disponibles {
     padding: 0px 0px 20px 0px;
-    
-    font-size: 1.4rem;
-    
+
+    font-size: 1.3rem;
+
   }
 
   .div-enlace-res {
-
-    /* padding: 0px; */
-    width: 140px;
-    border: 4px solid rgb(206, 6, 6);
+    width: 120px;
+    border: 3px solid rgb(206, 6, 6);
     border-radius: 19px;
     display: flex;
     justify-content: center;
   }
-  
+
   .div-enlace-res:hover {
-    margin: 0;  
-    border: 4px solid rgb(127, 255, 0);
+    margin: 0;
+    border: 5px solid rgb(127, 255, 0);
   }
-  
-  .t-enlace-res {
+
+  .btn-enlace-res {
+    background-color: rgba(255, 255, 255, 0);
+    border-style: none;
     padding: 5px;
     color: rgb(206, 6, 6);
-    font-size: 1.3rem;
-    font-weight: bold;
-    text-decoration: none;
-    text-align: right;
-    
+    font-size: 1rem;
+    font-weight: 500;
+    /* text-align: right; */
+
   }
-  
-  .t-enlace-res:hover {
-    /* border: 3px solid rgb(127, 255, 0); */
+
+  .btn-enlace-res:hover {
     color: rgb(41, 75, 7);
     font-weight: 800;
     scale: 1.2;
   }
 
-  .t-dispo {
-    width: 250px;
-    height: 50px;
-    /* font-size: 5rem; */
-    border: 5px solid rgb(104, 65, 246);
-    border-radius: 15px;
-    color: blue;
+  
+
+  .btn-dispo {
     font-size: 1.3rem;
   }
 
+  /* foot */
+
   .foot {
     padding: 20px;
-    height: 25vh;
+    height: 25%;
     font-weight: 200;
     font-size: 1.2rem;
     display: flex;

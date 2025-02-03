@@ -201,7 +201,7 @@
 
   .foot {
     padding: 20px;
-    height: 25vh;
+    height: 25%;
     font-weight: 200;
     font-size: 1.2rem;
     display: flex;
@@ -392,7 +392,7 @@
   /* FOOT PEQUEÑOS */
   .foot {
     padding: 0px;
-    height: 30vh;
+    height: 30%;
     font-weight: 200;
     font-size: .9rem;
     display: flex;

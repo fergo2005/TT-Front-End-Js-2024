@@ -348,6 +348,7 @@ iframe {
     font-weight: 400;
   }
 
+  
   /* efecto alternancia */
 
   input:checked~.menu-enlaces {

@@ -104,3 +104,5 @@ const containerHabitaciones = document.getElementById("contenedorHabitaciones");
 /* A su contenido lo editamos agregandole lo que armamos */
 containerHabitaciones.innerHTML = habitacionesHtml;
 
+/* Agregamos un listener a los botones reservar de las habitaciones */
+const botonesReservar = document.querySelectorAll

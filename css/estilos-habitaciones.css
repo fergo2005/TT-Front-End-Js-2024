@@ -90,7 +90,7 @@ header {
 
 }
 
-.container-habitaciones {
+.contenedor-habitaciones {
   margin: 0;
   padding: 25px 30px 20px 30px;
   /* padding-left: 30px;
@@ -112,7 +112,7 @@ header {
   margin: 0px;
   /* width: 1100PX; */
   /* height: 340px; */
-  border-radius: 10px;
+  border-radius: 5px;
   background-color: rgb(255, 255, 255);
   box-shadow: 0px 0px 10px 5px rgba(76, 75, 75, 0.2);
   display: flex;
@@ -211,12 +211,57 @@ header {
   scale: 1.1;
 }
 
+.agregando-reserva {
+  /* padding: 20px; */
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
 
+.contenedor-habitaciones-a-reservar {
+  /* padding: 20px; */
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
 
+.texto-complementario-habitaciones {
+  padding: 10px;
+  font-size: 2rem;
+}
 
+.selec-cantidad {
+  text-align: center;
+  padding: 5px;
+  width: 50px;
+  height: 20px;
+  font-size: 2rem;
+}
 
+.cuadro-info {
 
+  background-color: beige;
+  width: 80%;
+  padding: 10px;
+  border: 3px solid green;
+  text-align: justify;
+  font-size: 1.1rem;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
 
+.nota {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
 
 
 
@@ -387,7 +432,7 @@ header {
     font-size: 1.8rem;
   }
 
-  .container-habitaciones {
+  .contenedor-habitaciones {
     padding-top: 10px;
     display: flex;
     justify-content: center;

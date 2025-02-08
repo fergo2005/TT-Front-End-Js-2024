@@ -1,0 +1,310 @@
+:root {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Ubuntu, serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-image: linear-gradient(rgb(0, 0, 0), rgba(250, 250, 250, 0));
+    position: fixed;
+}
+
+.todo-el-menu {
+    margin: 0;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.todo-el-menu ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.todo-el-menu a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 12px;
+    border-radius: 2px;
+}
+
+.todo-el-menu a:hover {
+    background-color: red;
+    transition: 0.3s;
+}
+
+.slider {
+    /* position: relative; */
+    width: 100%;
+    height: 59%;
+    background: url(../img/reservas/Habitaciones-single.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.titulos {
+    text-align: center;
+  }
+  
+  .titulo-red {
+    color: rgb(206, 6, 6);
+    text-align: center;
+  }
+  
+  .subtitulo {
+    text-align: center;
+  }
+  
+  .t-2 {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 25px;
+    font-family: "Ubuntu", serif;
+    font-size: 1.2em;
+    font-weight: 300;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    line-height: 35px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+/* pantallas grandes  */
+
+@media (min-width: 968px) {
+
+    .ico-hamb {
+        display: none;
+    }
+
+    .logo-hamb {
+        display: none;
+    }
+
+    .conmutador {
+        display: none;
+    }
+
+    header {
+        height: 20%;
+    }
+
+    .todo-el-menu {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .todo-el-menu a {
+        padding: 11px;
+        border-radius: 2px;
+    }
+
+    .nav-menu {
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .nav-opcion {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        /* flex-wrap: wrap; */
+    }
+
+    .nav-opcion a {
+        font-weight: 400;
+        font-size: 1.1rem;
+    }
+
+    .nav-logo img {
+        padding: 10px;
+        width: 150px;
+    }
+
+     /* Seccion Titulos */
+
+  .titulos {
+    padding-top: 30px;
+    text-align: center;
+  }
+
+  .titulo-red {
+    padding-top: 10px;
+    font-size: 2.7rem;
+    font-weight: 100;
+  }
+
+  .subtitulo {
+    padding-top: 30px;
+    font-weight: 400;
+  }
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Pantallas pequeñas */
+
+@media (max-width:967px) {
+
+    .nav {
+        display: none;
+    }
+
+    header {
+        padding: 0px;
+
+    }
+
+    .todo-el-menu {
+        padding: 0px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+    }
+
+    .logo-hamb {
+        padding: 15px;
+    }
+
+    .logo-hamb img {
+        width: 130px;
+    }
+
+    .ico-hamb {
+        padding: 0px;
+        padding: 25px;
+    }
+
+    .ico-hamb i {
+        padding: 5px;
+        color: white;
+        font-size: 2.5rem;
+        display: block;
+        cursor: pointer;
+    }
+
+    /* Menu styles */
+
+    .conmutador {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1rem;
+    }
+
+    input#menu {
+        display: none;
+    }
+
+    .menu-enlaces {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        max-height: 0px;
+        overflow: hidden;
+        background-color: #00000010;
+    }
+
+    .nav-opcion {
+        width: 100%;
+        padding: 0px;
+        display: flex;
+    }
+
+    .nav-opcion a {
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+        font-weight: 400;
+    }
+
+
+    /* efecto alternancia */
+
+    input:checked~.menu-enlaces {
+        max-height: 100%;
+    }
+
+    .titulos {
+        padding-top: 20px;
+        text-align: center;
+      }
+    
+      .titulo-red {
+        padding-top: 25px;
+        font-size: 1.8rem;
+      }
+    
+      .subtitulo {
+        padding-top: 25px;    
+        font-size: 0.9rem;
+      }
+
+      .t-2,
+  .t-3 {
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: .9rem;
+    font-weight: 400;
+    font-style: bold;
+    text-align: justify;
+    line-height: 25px;
+  }
+}

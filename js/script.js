@@ -76,7 +76,7 @@ let habitacionesHtml = "";
 let cantDisponibles = 0;
 console.log(cantDisponibles)
 for (let i = 0; i < habitaciones.length; i++) {
-    
+
     if (habitaciones[i].disponibilidad != 0) {
         cantDisponibles += 1;
         habitacionesHtml += `
@@ -100,18 +100,19 @@ for (let i = 0; i < habitaciones.length; i++) {
                     <p class="h-precio">${habitaciones[i].precio}</p>
                     <p class="h-disponibles">Cant. ${habitaciones[i].disponibilidad}</p>
                     <div class="div-enlace-res">
-                        <input type="button" class="btn-enlace-res" value="RESERVAR">
-                    </div>                    
+                        <a href="reservas-ha.html">RESERVAR</a>       
+                    </div>
+
                 </div>
             </div>
         </div>
     `
     };
-    
-    
+
+
 }
 
-if (cantDisponibles==0) {
+if (cantDisponibles == 0) {
     const textoSegunDisponibilidad = document.getElementById("texto_segun_disponibilidad");
     textoSegunDisponibilidad.innerHTML = `<p class="titulo-red">No hay disponibles</p>`;
     console.log(cantDisponibles);
@@ -119,7 +120,7 @@ if (cantDisponibles==0) {
 else {
     const textoSegunDisponibilidad = document.getElementById("texto_segun_disponibilidad");
     textoSegunDisponibilidad.innerHTML = `<p class="titulo-red">Están Disponibles</p>`;
-    
+
 }
 
 
@@ -164,7 +165,7 @@ contenedorHabitacionesAReservar.innerHTML = habitacionesAReservar; */
 
 
 /* agregamos el lidtener a los botones ahora si */
-for (let i=0; i<botonesReservar.length; i++) {
+for (let i = 0; i < botonesReservar.length; i++) {
     function agregarHabitacionPorTipo() {
         console.log("hice clic en el boton de indice: " + i);
 
@@ -174,11 +175,11 @@ for (let i=0; i<botonesReservar.length; i++) {
         /* elementoLi.innerText = ` $  ${habitaciones[i].precio}`; */
         console.log(elementoLi);
 
-/*         listaParaReservar.appendChild(elementoLi) */
-        
+        /*         listaParaReservar.appendChild(elementoLi) */
+
     }
 
-    botonesReservar[i].addEventListener("click",agregarHabitacionPorTipo);
+    botonesReservar[i].addEventListener("click", agregarHabitacionPorTipo);
 
 }
 

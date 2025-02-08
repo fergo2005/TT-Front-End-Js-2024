@@ -189,6 +189,21 @@ header {
   padding: 20px 0 20px 0;
 }
 
+
+/* enlaces */
+
+
+
+/* .div-enlace-res {
+  width: 100px;
+  border: 3px solid rgb(206, 6, 6);
+  border-radius: 19px;
+  display: flex;
+  justify-content: center;  
+} */
+
+
+
 .btn-dispo {
   /* background-color: rgba(255, 255, 255, 0); */
   /* border-style: none; */
@@ -551,6 +566,8 @@ header {
     border-radius: 19px;
     display: flex;
     justify-content: center;
+
+    
   }
 
   .div-enlace-res:hover {
@@ -558,18 +575,18 @@ header {
     border: 5px solid rgb(127, 255, 0);
   }
 
-  .btn-enlace-res {
+  .div-enlace-res a {
+    text-decoration: none;
     background-color: rgba(255, 255, 255, 0);
     border-style: none;
     padding: 4px;
     color: rgb(206, 6, 6);
     font-size: 0.9rem;
     font-weight: 500;
-    /* text-align: right; */
-
   }
 
-  .btn-enlace-res:hover {
+
+  .div-enlace-res a:hover {
     color: rgb(41, 75, 7);
     background-color: rgba(255, 255, 255, 0);
     font-weight: 500;
@@ -822,35 +839,39 @@ header {
 
   }
 
-  .div-enlace-res {
-    width: 120px;
+
+/* enlaces */
+
+.div-enlace-res {
+  width: 120px;
     border: 3px solid rgb(206, 6, 6);
     border-radius: 19px;
     display: flex;
     justify-content: center;
-  }
+}
 
-  .div-enlace-res:hover {
-    margin: 0;
-    border: 5px solid rgb(127, 255, 0);
-  }
+.div-enlace-res:hover {
+  margin: 0;  
+  border: 5px solid rgb(127, 255, 0);
+}
 
-  .btn-enlace-res {
-    background-color: rgba(255, 255, 255, 0);
-    border-style: none;
-    padding: 5px;
-    color: rgb(206, 6, 6);
-    font-size: 1rem;
-    font-weight: 500;
-    /* text-align: right; */
+.div-enlace-res a {
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0);
+  border-style: none;
+  padding: 5px;
+  color: rgb(206, 6, 6);
+  font-size: 1rem;
+  font-weight: 500;
+}
 
-  }
 
-  .btn-enlace-res:hover {
-    color: rgb(41, 75, 7);
-    font-weight: 800;
-    scale: 1.2;
-  }
+.div-enlace-res a:hover {
+  color: rgb(41, 75, 7);
+  background-color: rgba(255, 255, 255, 0);
+  font-weight: 800;
+  scale: 1.2;
+}
 
   
 

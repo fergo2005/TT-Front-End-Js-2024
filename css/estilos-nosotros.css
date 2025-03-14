@@ -62,29 +62,6 @@ header {
   background-position: center center;
 }
 
-
-/* ya no esta */
-/* main {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 80vh;  
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;  
-} */
-
-/* section {
-  margin: 0px;
-  font-family: "Ubuntu", serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 1rem;
-  padding: 30px;
-  text-align: center;
-  align-items: center;
-} */
-
 .section1 {
   margin: 0px;
   padding: 20px;
@@ -113,8 +90,8 @@ header {
   padding-left: 15%;
   padding-right: 15%;
   padding-top: 25px;
-  font-size: 1.2em;
-  font-weight: 300;
+  font-size: 1.3em;
+  font-weight: 100;
   font-style: normal;
   color: rgb(0, 0, 0);
   text-align: justify;
@@ -149,12 +126,8 @@ header {
 
 .div-video {
   margin: 0px;
-
   /* flex-wrap: wrap; */
-
   flex: 1 450px;
-
-
 }
 
 .div-video:hover {
@@ -172,14 +145,15 @@ header {
 }
 
 .titulo-red3 {
-  margin: 0px;
-  padding: 20px;
-  padding-left: 30px;
+  margin: 0;
+  padding: 0;
+  /* padding-left: 30px; */
   font-family: "Ubuntu", serif;
   font-weight: 400;
   font-style: normal;
   color: #cc2038;
-  font-size: 2.2rem;
+  font-size: 2rem;
+  /* text-align: left; */
 
 }
 
@@ -193,27 +167,26 @@ header {
 .div-enlace {
   margin: 0;
   padding: 0;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
   /* background-color: #ef60d2; */
   /* text-align: center; */
   /* align-content: center; */
 
   /* position: absolute; */
-  width: 120px;
+  width: 110px;
   /* height: 150px; */
-  border: 3px solid rgb(206, 6, 6);
-  border-radius: 10px;
-
+  border: 2px solid rgb(206, 6, 6);
+  border-radius: 5px;
   display: flex;
   justify-content: center;
+  padding-bottom: 0px;
 
 }
 
 .div-enlace:hover {
-
   border: 5px solid greenyellow;
-  border-radius: 10px;
+  border-radius: 5px;
   background-color: rgb(138, 253, 161);
 }
 
@@ -229,7 +202,7 @@ header {
   /* border-bottom: 2px solid red; */
   color: rgb(206, 6, 6);
   font-size: 1.2rem;
-  font-weight: bold;
+  font-weight: 400;
   text-decoration: none;
   text-align: right;
   /* border: 3px solid rgb(206, 6, 6); */
@@ -238,10 +211,14 @@ header {
 .t-enlace:hover {
 
   color: green;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
+  /* transform: scale(1.1); */
 }
 
-
+.tarj-desayuno{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
 
 
@@ -322,15 +299,7 @@ iframe {
 
 /* PAGINA HABITACIONES  GENERAL */
 
-.titulo-red-hab {
-  padding: 0px;
-  padding-top: 0px;
-  font-family: "Ubuntu", serif;
-  font-weight: 300;
-  font-style: normal;
-  color: rgb(206, 6, 6);
-  font-size: 2.7rem;
-}
+
 
 
 
@@ -340,32 +309,32 @@ iframe {
 }
 
 
-.container-habitaciones {
+/* .container-habitaciones {
   background-color: rgb(255, 220, 185);
   margin: 0;
   width: 100%;
 
   display: flex;
-  /* text-align: center; */
+  text-align: center;
   justify-content: center;
-  /* justify-items: center; */
-  /* flex: auto; */
+  justify-items: center;
+  flex: auto;
 
   font-family: "Ubuntu", serif;
 
   padding-bottom: 40px;
-}
+} */
 
 
-.target-habitacion {
+/* .target-habitacion {
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
   border: 3px solid rgba(136, 137, 134, 0.5);
   padding-top: 20px;
   padding-bottom: 30px;
   text-align: center;
-  /* justify-content: center; */
-}
+  justify-content: center;
+} */
 
 
 
@@ -512,56 +481,33 @@ font-size: 1.1rem;
 
 
 
-.div-enlace-res {
 
-  padding: 40;
-  /* padding-left: 10px;
-padding-right: 10px; */
-  /* background-color: #ef60d2; */
-  /* text-align: center; */
-  /* align-content: center; */
-
-  /* position: absolute; */
-  width: 120px;
-  /* height: 150px; */
-  border: 3px solid rgb(206, 6, 6);
-  border-radius: 10px;
-
-  display: flex;
-  justify-content: center;
-
-}
-
-.div-enlace-res:hover {
-
+/* .div-enlace-res:hover {
   border: 5px solid greenyellow;
   border-radius: 10px;
   background-color: rgb(138, 253, 161);
-}
+} */
 
-.t-enlace-res {
+/* .t-enlace-res {
   padding: 10px;
   padding-left: 20px;
-  /* display: flex;
-justify-content: center; */
+  display: flex;
+  justify-content: center;
 
-  /* background-color: aqua; */
-  /* text-align: left; */
-  /* border: 3px solid red; */
-  /* border-bottom: 2px solid red; */
+ 
   color: rgb(206, 6, 6);
   font-size: 1.2rem;
   font-weight: bold;
   text-decoration: none;
   text-align: right;
-  /* border: 3px solid rgb(206, 6, 6); */
-}
+ 
+} */
 
-.t-enlace-res:hover {
+/* .t-enlace-res:hover {
 
   color: green;
   font-size: 1.4rem;
-}
+} */
 
 
 
@@ -659,7 +605,7 @@ justify-content: center; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 1rem;
+    /* font-size: 0.5rem; */
   }
 
   input#menu {
@@ -698,33 +644,35 @@ justify-content: center; */
 
   .titulo-red {
     padding: 15px;
-    font-size: 2rem;
+    font-size: 2.5rem;
+    font-weight: 300;
   }
 
   .subtit-1 {
     padding-left: 5%;
     padding-right: 5%;
-    padding: 15px;
-    font-size: .9rem;
+    padding: 10px;
+    font-size: 1.1rem;
   }
 
   .titulo-red2 {
-    font-size: 2rem;
+    font-size: 2.1rem;
   }
 
   .titulo-red3 {
-    font-size: 1.9rem;
+    font-size: 2rem;
   }
 
   .t-2,
   .t-3 {
-    padding-left: 3%;
-    padding-right: 3%;
-    font-size: .9rem;
-    font-weight: 400;
-    font-style: bold;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 1.3rem;
+    font-weight: 200;
+    font-style: normal;
     text-align: justify;
-    line-height: 25px;
+    line-height: 30px;
+    color: rgb(117, 117, 117);
   }
 
   video {
@@ -757,19 +705,14 @@ justify-content: center; */
   }
 
 
-  /* no se de donde se */
-  img {
-    margin: 0;
-    /* width: 90%; */
-
-    /* height: 100%; */
-    /* text-align: center;
-    align-items: center;
-    align-content: center; */
+  
+  .tarj-desayuno{
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
   }
 
   .div-servicios {
-
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
@@ -790,16 +733,20 @@ justify-content: center; */
     width: 90%;
   }
   
+  
+
+  
+
   .div-serv-img img {
     width: 100%;
-    height: 100%;
+    height: 100%;    
   }
 
   .div-serv-text {
-    padding: 20px;
-    width: 90%;
-    display: flex 1;
-    justify-items: center;
+    padding: 0;
+    width: 85%;
+    /* display: flex; */
+    /* justify-items: center; */
     text-align: justify;
   }
 
@@ -808,11 +755,11 @@ justify-content: center; */
   .t-4 {
     font-family: "Ubuntu", serif;
 
-    padding: 40px 10px 40px 20px;
+    /* padding: 40px 10px 40px 20px; */
     /* padding-left: 3%;
     padding-right: 3%; */
-    font-size: 1.1rem;
-    font-weight: 400;
+    font-size: 1.2rem;
+    font-weight: 300;
     font-style: bold;
     text-align: justify;
     line-height: 30px;
@@ -1094,7 +1041,7 @@ justify-content: center; */
   .div-servicios {
     margin: 0;
     padding: 0;
-    padding-top: 60px;
+    padding-top: 30px;
 
     width: 100%;
     display: flex;
